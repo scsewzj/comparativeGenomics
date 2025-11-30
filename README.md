@@ -1,4 +1,4 @@
 # comparativeGenomics
 2526M2GENIOHME Course Project
 
-(!\plot\Oryza_brachyantha\ncRNApie.png)
+![Oryza_brachyantha ncRNA Pie Chart](plot/Oryza_brachyantha/ncRNApie.png)
