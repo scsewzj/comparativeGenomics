@@ -1,0 +1,79 @@
+===============================================
+Minh Ngoc VU - M2 GENIOMHE Comparative genomics
+===============================================
+ 
+===== Tue Dec  2 22:43:02 CET 2025: Running MCScanX and duplicate_gene_classifier...
+===== Tue Dec  2 22:43:02 CET 2025: Preparing input files with JCVI...
+[12/02/25 22:43:03] DEBUG    Load file                                                                                          base.py:39
+                             `/Users/ngoc/All/GENIOMHE2/courses/comparative_genomics/projet/data/Oryza_sativa.IRGSP-1.0.41.gff3           
+                             .gz`                                                                                                         
+[12/02/25 22:43:09] DEBUG    Extracted 42378 features (type=mRNA id=ID parent=Parent)                                          gff.py:3128
+===== Tue Dec  2 22:43:10 CET 2025: Running mcscanx for the high (H) stringent dataset...
+Reading BLAST file and pre-processing
+Generating BLAST list
+28669 matches imported (10461 discarded)
+78 pairwise comparisons
+76 alignments generated
+Pairwise collinear blocks written to osativa_H.collinearity [1.025 seconds elapsed]
+Tandem pairs written to osativa_H.tandem
+Writing multiple syntenic blocks to HTML files
+1.html
+10.html
+11.html
+12.html
+2.html
+3.html
+4.html
+5.html
+6.html
+7.html
+8.html
+9.html
+Done! [0.437 seconds elapsed]
+===== Tue Dec  2 22:43:11 CET 2025: Running duplicate_gene_classifier for the high (H) stringent dataset...
+Reading BLAST file and pre-processing
+Generating BLAST list
+28669 matches imported (10461 discarded)
+78 pairwise comparisons
+76 alignments generated
+Type of dup	Code	Number
+Singleton	0	24170
+Dispersed	1	5898
+Proximal	2	1960
+Tandem	3	7290
+WGD or segmental	4	2902
+===== Tue Dec  2 22:43:12 CET 2025: Running mcscanx for the low (L) stringent dataset...
+Reading BLAST file and pre-processing
+Generating BLAST list
+197708 matches imported (80585 discarded)
+78 pairwise comparisons
+116 alignments generated
+Pairwise collinear blocks written to osativa_L.collinearity [5.278 seconds elapsed]
+Tandem pairs written to osativa_L.tandem
+Writing multiple syntenic blocks to HTML files
+1.html
+10.html
+11.html
+12.html
+2.html
+3.html
+4.html
+5.html
+6.html
+7.html
+8.html
+9.html
+Done! [0.823 seconds elapsed]
+===== Tue Dec  2 22:43:18 CET 2025: Running duplicate_gene_classifier for the low (L) stringent dataset...
+Reading BLAST file and pre-processing
+Generating BLAST list
+197708 matches imported (80585 discarded)
+78 pairwise comparisons
+116 alignments generated
+Type of dup	Code	Number
+Singleton	0	15364
+Dispersed	1	10500
+Proximal	2	2460
+Tandem	3	9307
+WGD or segmental	4	4589
+===== Tue Dec  2 22:43:24 CET 2025: MCScanX completed.
