@@ -1,0 +1,20 @@
+raw data : no_self_hits.tsv
+BLAST file before filtering the results. Contains:
+- only 1 instance of each pairs: the longest hit ;
+- length of query and subject sequence in columns 13 and 14 resp. ;
+- no hit of protein with itself.
+
+# Strict homologs : strict.tsv
+% identity ≥ 40
+Query coverage ≥ 70%
+Subject coverage ≥ 70%
+
+# Moderate homologs : moderate.tsv
+% identity ≥ 30
+Query coverage ≥ 50%
+Subject coverage ≥ 50%
+
+# Very relaxed homologs : relaxed.tsv
+% identity ≥ 20
+Query coverage ≥ 30% OR Subject coverage ≥ 30%
+E-value ≤ 1e-5
