@@ -19,3 +19,8 @@ homology_all.txt    # use this if for a combined circos and if you want to show 
 circos -conf mycircos.conf
 # For more details, please check the configuration files(it can be cascade).
 ```
+
+## Circos
+[!](../plot/ob.png)
+[!](../plot/os.png)
+[!](../plot/circos.png)
