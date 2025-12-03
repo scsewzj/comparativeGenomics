@@ -9,6 +9,9 @@ Nov 30. Zhouji: Upload QC and statistics of Annotations
 Dec 1.	Emilie: Compute Ks of O. Brachyantha (not done yet)    
         Zhouji: AGAT Statistics on complete annotations
                 Extract CDS, mrna, proteins and exons from complete annotations
+                Circos Plots
 
-Dec 2. Zhouji: Draw assembly horizontal barplots, ncRNA composition Pie charts and violin plots of distributions of different components length
+Dec 2.  Ngoc, Zhouji, Priyasha and Emilie: Group meeting. Figures designs and workflow alignments
+        Zhouji: Draw assembly horizontal barplots, ncRNA composition Pie charts and violin plots of distributions of different components length
+                computing GC Signals, draw circos plots 
         
