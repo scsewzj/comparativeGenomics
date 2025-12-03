@@ -1,6 +1,11 @@
 # comparativeGenomics
 2526M2GENIOHME Course Project
 
+Pipeline is under construction.
+This repository will be organized when all work is done...
+
+Detailed documentation will be provided soon.
+
 ![circos_global](plots/circos.png)
 
 ![Genome Assembly Comparisons](quastreportscreenshot.jpg)
