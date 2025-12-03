@@ -21,6 +21,6 @@ circos -conf mycircos.conf
 ```
 
 ## Circos
-[!](../plot/ob.png)
-[!](../plot/os.png)
-[!](../plot/circos.png)
+[!](../plots/ob.png)
+[!](../plots/os.png)
+[!](../plots/circos.png)
