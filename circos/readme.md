@@ -14,7 +14,7 @@ homology_osob.txt   # use this if for a combined circos and if you only want to 
 homology_all.txt    # use this if for a combined circos and if you want to show both within- and cross-species syntenies
 ```
 
-**Zhouji WU** processed upstream data from his own and his teammates to plot 3 circos:
+**Zhouji WU** processed upstream data from his own(GC, gene density) and his teammates(Priyasha: TE density, Minh: Synteny) to plot 3 circos:
 ```bash
 circos -conf mycircos.conf
 # For more details, please check the configuration files(it can be cascade).
