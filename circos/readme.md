@@ -13,3 +13,9 @@ homology_os.txt     # use this if you plot 1 circos for O.sativa
 homology_osob.txt   # use this if for a combined circos and if you only want to show cross-species synteny
 homology_all.txt    # use this if for a combined circos and if you want to show both within- and cross-species syntenies
 ```
+
+**Zhouji WU** processed upstream data from his own and his teammates to plot 3 circos:
+```bash
+circos -conf mycircos.conf
+# For more details, please check the configuration files(it can be cascade).
+```
