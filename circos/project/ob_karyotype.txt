@@ -1,0 +1,12 @@
+chr - ob1 ob1 0 33916305 grey
+chr - ob2 ob2 0 27085147 grey
+chr - ob3 ob3 0 29620734 grey
+chr - ob4 ob4 0 21479432 grey
+chr - ob5 ob5 0 20131956 grey
+chr - ob6 ob6 0 21794218 grey
+chr - ob7 ob7 0 18603524 grey
+chr - ob8 ob8 0 18224760 grey
+chr - ob9 ob9 0 14107269 grey
+chr - ob10 ob10 0 14643570 grey
+chr - ob11 ob11 0 16001410 grey
+chr - ob12 ob12 0 15318893 grey
