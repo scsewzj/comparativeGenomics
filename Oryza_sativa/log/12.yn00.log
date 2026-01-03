@@ -1,0 +1,10 @@
+===============================================
+Minh Ngoc VU - M2 GENIOMHE Comparative genomics
+===============================================
+ 
+===== Sat Dec 27 01:54:46 CET 2025: Running PAML YN00 for the low-stringent dataset...
+Found 159643 control files.
+===== Sat Dec 27 02:07:52 CET 2025: PAML YN00 completed for 159643 pairs in the low-stringent dataset.
+===== Sat Dec 27 02:07:52 CET 2025: Running PAML YN00 for the high-stringent dataset...
+Found 18893 control files.
+===== Sat Dec 27 02:09:25 CET 2025: PAML YN00 completed for 18893 pairs for the high-stringent dataset.

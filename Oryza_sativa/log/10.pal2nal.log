@@ -1,0 +1,8 @@
+===============================================
+Minh Ngoc VU - M2 GENIOMHE Comparative genomics
+===============================================
+ 
+===== Sat Dec 27 01:18:47 CET 2025: Running PAL2NAL to align CDS on the low-stringent dataset...
+===== Sat Dec 27 01:35:41 CET 2025: PAL2NAL completed for the low-stringent dataset with 159643 alignments.
+===== Sat Dec 27 01:35:41 CET 2025: Running PAL2NAL to align CDS on the high-stringent dataset...
+===== Sat Dec 27 01:37:39 CET 2025: PAL2NAL completed for the high-stringent dataset with 18893 alignments.

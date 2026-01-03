@@ -1,0 +1,8 @@
+===============================================
+Minh Ngoc VU - M2 GENIOMHE Comparative genomics
+===============================================
+ 
+===== Sat Dec 27 02:12:29 2025: Extracting dN dS (Yang and Nielsen (2000)) from YN00 output of the low stringent dataset...
+===== Sat Dec 27 02:13:32 2025: Extracted dN/dS for 159643 hits from /Users/ngoc/All/GENIOMHE2/courses/comparative_genomics/projet-redo-1225/paml-workflow/low/yn00_out
+===== Sat Dec 27 02:13:32 2025: Extracting dN dS (Yang and Nielsen (2000)) from YN00 output of the high stringent dataset...
+===== Sat Dec 27 02:13:42 2025: Extracted dN/dS for 18893 hits from /Users/ngoc/All/GENIOMHE2/courses/comparative_genomics/projet-redo-1225/paml-workflow/high/yn00_out
