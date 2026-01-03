@@ -1,0 +1,105 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	high.genes.gt10.lt20.txt (Oryza sativa)
+Reference List:	BACKGROUND.txt (Oryza sativa)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	BACKGROUND.txt - REFLIST (27264)	high.genes.gt10.lt20.txt (795)	high.genes.gt10.lt20.txt (expected)	high.genes.gt10.lt20.txt (over/under)	high.genes.gt10.lt20.txt (fold Enrichment)	high.genes.gt10.lt20.txt (raw P-value)	high.genes.gt10.lt20.txt (FDR)
+actin filament depolymerization (GO:0030042)	10	9	.29	+	30.86	1.42E-13	3.06E-11
+actin polymerization or depolymerization (GO:0008154)	10	9	.29	+	30.86	1.42E-13	2.62E-11
+secondary metabolite biosynthetic process (GO:0044550)	42	28	1.22	+	22.86	2.32E-33	3.01E-30
+heterochromatin organization (GO:0070828)	20	12	.58	+	20.58	3.54E-14	1.14E-11
+heterochromatin formation (GO:0031507)	20	12	.58	+	20.58	3.54E-14	9.16E-12
+hormone biosynthetic process (GO:0042446)	20	10	.58	+	17.15	5.96E-11	4.82E-09
+secondary metabolic process (GO:0019748)	62	28	1.81	+	15.49	8.86E-27	5.73E-24
+protein depolymerization (GO:0051261)	20	9	.58	+	15.43	1.83E-09	1.19E-07
+negative regulation of gene expression, epigenetic (GO:0045814)	27	12	.79	+	15.24	4.05E-12	4.76E-10
+defense response to fungus (GO:0050832)	7	3	.20	+	14.70	7.92E-04	1.38E-02
+seed development (GO:0048316)	10	3	.29	+	10.29	2.54E-03	3.74E-02
+epigenetic regulation of gene expression (GO:0040029)	40	12	1.17	+	10.29	9.18E-10	6.25E-08
+response to unfolded protein (GO:0006986)	14	4	.41	+	9.80	5.69E-04	1.05E-02
+endoplasmic reticulum unfolded protein response (GO:0030968)	14	4	.41	+	9.80	5.69E-04	1.04E-02
+cellular response to unfolded protein (GO:0034620)	14	4	.41	+	9.80	5.69E-04	1.02E-02
+amino acid transmembrane transport (GO:0003333)	58	16	1.69	+	9.46	6.00E-12	6.47E-10
+actin filament organization (GO:0007015)	34	9	.99	+	9.08	3.97E-07	1.51E-05
+protein-containing complex disassembly (GO:0032984)	35	9	1.02	+	8.82	5.21E-07	1.87E-05
+organic acid transmembrane transport (GO:1903825)	64	16	1.87	+	8.57	3.12E-11	2.88E-09
+carboxylic acid transmembrane transport (GO:1905039)	64	16	1.87	+	8.57	3.12E-11	2.69E-09
+actin cytoskeleton organization (GO:0030036)	38	9	1.11	+	8.12	1.11E-06	3.78E-05
+cellular response to topologically incorrect protein (GO:0035967)	17	4	.50	+	8.07	1.26E-03	2.12E-02
+response to topologically incorrect protein (GO:0035966)	17	4	.50	+	8.07	1.26E-03	2.09E-02
+hormone metabolic process (GO:0042445)	43	10	1.25	+	7.98	3.37E-07	1.32E-05
+amino acid transport (GO:0006865)	72	16	2.10	+	7.62	2.11E-10	1.52E-08
+actin filament-based process (GO:0030029)	41	9	1.20	+	7.53	2.21E-06	6.80E-05
+amine metabolic process (GO:0009308)	49	10	1.43	+	7.00	1.23E-06	4.09E-05
+regulation of hormone levels (GO:0010817)	52	10	1.52	+	6.60	2.19E-06	6.92E-05
+chromatin remodeling (GO:0006338)	74	14	2.16	+	6.49	2.59E-08	1.29E-06
+chromatin organization (GO:0006325)	76	14	2.22	+	6.32	3.69E-08	1.71E-06
+carboxylic acid transport (GO:0046942)	87	16	2.54	+	6.31	4.04E-09	2.38E-07
+organic acid transport (GO:0015849)	87	16	2.54	+	6.31	4.04E-09	2.27E-07
+SCF-dependent proteasomal ubiquitin-dependent protein catabolic process (GO:0031146)	59	10	1.72	+	5.81	7.25E-06	2.08E-04
+glutathione metabolic process (GO:0006749)	65	11	1.90	+	5.80	2.58E-06	7.75E-05
+organic anion transport (GO:0015711)	99	16	2.89	+	5.54	2.79E-08	1.34E-06
+supramolecular fiber organization (GO:0097435)	59	9	1.72	+	5.23	4.96E-05	1.28E-03
+protein-DNA complex organization (GO:0071824)	93	14	2.71	+	5.16	5.05E-07	1.86E-05
+cellular component disassembly (GO:0022411)	65	9	1.90	+	4.75	1.08E-04	2.41E-03
+cellular modified amino acid metabolic process (GO:0006575)	91	11	2.65	+	4.15	6.86E-05	1.71E-03
+negative regulation of gene expression (GO:0010629)	114	12	3.32	+	3.61	1.27E-04	2.78E-03
+protein dephosphorylation (GO:0006470)	96	10	2.80	+	3.57	4.95E-04	9.27E-03
+protein phosphorylation (GO:0006468)	448	45	13.06	+	3.44	6.51E-13	9.36E-11
+intracellular protein transport (GO:0006886)	142	14	4.14	+	3.38	7.34E-05	1.76E-03
+phosphorylation (GO:0016310)	468	45	13.65	+	3.30	2.97E-12	3.83E-10
+negative regulation of macromolecule biosynthetic process (GO:0010558)	126	12	3.67	+	3.27	3.25E-04	6.47E-03
+nitrogen compound transport (GO:0071705)	316	30	9.21	+	3.26	1.72E-08	8.90E-07
+negative regulation of cellular biosynthetic process (GO:0031327)	128	12	3.73	+	3.22	3.76E-04	7.37E-03
+negative regulation of biosynthetic process (GO:0009890)	129	12	3.76	+	3.19	4.04E-04	7.79E-03
+protein-containing complex organization (GO:0043933)	257	23	7.49	+	3.07	2.18E-06	7.06E-05
+organic substance transport (GO:0071702)	359	30	10.47	+	2.87	2.88E-07	1.17E-05
+negative regulation of macromolecule metabolic process (GO:0010605)	144	12	4.20	+	2.86	1.08E-03	1.83E-02
+negative regulation of cellular metabolic process (GO:0031324)	147	12	4.29	+	2.80	1.29E-03	2.11E-02
+negative regulation of metabolic process (GO:0009892)	148	12	4.32	+	2.78	1.37E-03	2.21E-02
+proteasomal protein catabolic process (GO:0010498)	181	14	5.28	+	2.65	8.99E-04	1.55E-02
+protein transport (GO:0015031)	194	14	5.66	+	2.47	1.74E-03	2.78E-02
+phosphate-containing compound metabolic process (GO:0006796)	851	55	24.81	+	2.22	4.03E-08	1.80E-06
+phosphorus metabolic process (GO:0006793)	858	55	25.02	+	2.20	7.09E-08	3.05E-06
+protein modification process (GO:0036211)	1006	55	29.33	+	1.87	8.78E-06	2.42E-04
+macromolecule modification (GO:0043412)	1187	55	34.61	+	1.59	7.49E-04	1.33E-02
+organonitrogen compound metabolic process (GO:1901564)	2117	91	61.73	+	1.47	2.02E-04	4.29E-03
+protein metabolic process (GO:0019538)	1653	70	48.20	+	1.45	1.90E-03	2.99E-02
+cellular biosynthetic process (GO:0044249)	1368	22	39.89	-	.55	2.17E-03	3.38E-02
+heterocycle metabolic process (GO:0046483)	1037	10	30.24	-	.33	2.78E-05	7.35E-04
+organic cyclic compound metabolic process (GO:1901360)	1144	11	33.36	-	.33	8.55E-06	2.40E-04
+cellular response to stimulus (GO:0051716)	644	4	18.78	-	.21	6.98E-05	1.70E-03
+gene expression (GO:0010467)	792	1	23.09	-	.04	2.38E-09	1.47E-07
+macromolecule biosynthetic process (GO:0009059)	952	1	27.76	-	.04	2.23E-11	2.22E-09
+heterocycle biosynthetic process (GO:0018130)	210	0	6.12	-	 < 0.01	3.30E-03	4.79E-02
+protein ubiquitination (GO:0016567)	211	0	6.15	-	 < 0.01	3.31E-03	4.70E-02
+nucleobase-containing compound metabolic process (GO:0006139)	963	0	28.08	-	 < 0.01	5.61E-13	9.06E-11
+carbohydrate derivative metabolic process (GO:1901135)	210	0	6.12	-	 < 0.01	3.30E-03	4.74E-02
+nucleic acid metabolic process (GO:0090304)	783	0	22.83	-	 < 0.01	9.65E-11	7.34E-09
+small molecule metabolic process (GO:0044281)	549	0	16.01	-	 < 0.01	1.22E-07	5.07E-06
+cellular nitrogen compound biosynthetic process (GO:0044271)	422	0	12.31	-	 < 0.01	6.29E-06	1.85E-04
+carbohydrate metabolic process (GO:0005975)	228	0	6.65	-	 < 0.01	2.28E-03	3.43E-02
+cellular lipid metabolic process (GO:0044255)	300	0	8.75	-	 < 0.01	2.12E-04	4.41E-03
+cellular catabolic process (GO:0044248)	305	0	8.89	-	 < 0.01	2.15E-04	4.41E-03
+organic acid metabolic process (GO:0006082)	332	0	9.68	-	 < 0.01	9.87E-05	2.28E-03
+oxoacid metabolic process (GO:0043436)	332	0	9.68	-	 < 0.01	9.87E-05	2.24E-03
+carboxylic acid metabolic process (GO:0019752)	331	0	9.65	-	 < 0.01	9.80E-05	2.30E-03
+RNA processing (GO:0006396)	344	0	10.03	-	 < 0.01	6.62E-05	1.68E-03
+lipid metabolic process (GO:0006629)	379	0	11.05	-	 < 0.01	2.02E-05	5.43E-04
+mRNA metabolic process (GO:0016071)	226	0	6.59	-	 < 0.01	2.25E-03	3.42E-02
+RNA metabolic process (GO:0016070)	628	0	18.31	-	 < 0.01	1.14E-08	6.13E-07
+protein modification by small protein conjugation or removal (GO:0070647)	312	0	9.10	-	 < 0.01	2.32E-04	4.68E-03
+post-translational protein modification (GO:0043687)	317	0	9.24	-	 < 0.01	1.44E-04	3.11E-03
+organophosphate metabolic process (GO:0019637)	282	0	8.22	-	 < 0.01	4.82E-04	9.17E-03
+ncRNA metabolic process (GO:0034660)	218	0	6.36	-	 < 0.01	3.48E-03	4.84E-02
+cellular nitrogen compound metabolic process (GO:0034641)	1174	0	34.23	-	 < 0.01	8.60E-16	3.71E-13
+amide biosynthetic process (GO:0043604)	225	0	6.56	-	 < 0.01	2.24E-03	3.45E-02
+protein modification by small protein conjugation (GO:0032446)	231	0	6.74	-	 < 0.01	2.35E-03	3.49E-02
+organonitrogen compound biosynthetic process (GO:1901566)	486	0	14.17	-	 < 0.01	8.76E-07	3.06E-05
+amino acid metabolic process (GO:0006520)	214	0	6.24	-	 < 0.01	3.35E-03	4.71E-02

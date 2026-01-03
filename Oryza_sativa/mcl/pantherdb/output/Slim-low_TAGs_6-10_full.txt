@@ -1,0 +1,31 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	L_6-10_TAGs.tsv (Oryza sativa)
+Reference List:	BACKGROUND.txt (Oryza sativa)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	BACKGROUND.txt - REFLIST (27264)	L_6-10_TAGs.tsv (446)	L_6-10_TAGs.tsv (expected)	L_6-10_TAGs.tsv (over/under)	L_6-10_TAGs.tsv (fold Enrichment)	L_6-10_TAGs.tsv (raw P-value)	L_6-10_TAGs.tsv (FDR)
+cell surface receptor signaling pathway (GO:0007166)	85	9	1.39	+	6.47	1.06E-05	1.72E-03
+methylation (GO:0032259)	100	8	1.64	+	4.89	2.41E-04	2.08E-02
+response to external biotic stimulus (GO:0043207)	287	19	4.69	+	4.05	3.17E-07	4.10E-04
+response to other organism (GO:0051707)	287	19	4.69	+	4.05	3.17E-07	2.05E-04
+response to biotic stimulus (GO:0009607)	287	19	4.69	+	4.05	3.17E-07	1.37E-04
+defense response to other organism (GO:0098542)	287	19	4.69	+	4.05	3.17E-07	1.03E-04
+biological process involved in interspecies interaction between organisms (GO:0044419)	288	19	4.71	+	4.03	3.34E-07	8.65E-05
+response to external stimulus (GO:0009605)	312	19	5.10	+	3.72	1.12E-06	2.42E-04
+defense response (GO:0006952)	335	19	5.48	+	3.47	3.19E-06	5.90E-04
+protein phosphorylation (GO:0006468)	448	21	7.33	+	2.87	1.84E-05	2.38E-03
+phosphorylation (GO:0016310)	468	21	7.66	+	2.74	3.49E-05	4.11E-03
+cellular biosynthetic process (GO:0044249)	1368	8	22.38	-	.36	6.23E-04	4.24E-02
+organic substance biosynthetic process (GO:1901576)	1425	8	23.31	-	.34	3.45E-04	2.63E-02
+biosynthetic process (GO:0009058)	1466	8	23.98	-	.33	1.86E-04	1.71E-02
+cellular component organization or biogenesis (GO:0071840)	914	3	14.95	-	.20	2.91E-04	2.35E-02
+transport (GO:0006810)	985	3	16.11	-	.19	1.55E-04	1.54E-02
+establishment of localization (GO:0051234)	1053	3	17.23	-	.17	5.28E-05	5.69E-03
+localization (GO:0051179)	1136	3	18.58	-	.16	1.24E-05	1.78E-03
+organelle organization (GO:0006996)	508	0	8.31	-	 < 0.01	5.17E-04	3.71E-02

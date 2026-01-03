@@ -1,0 +1,3043 @@
+{"overrepresentation": {
+    "reference": {"reference_organism": "Oryza sativa"},
+    "upload_lists": {"input_list": {
+        "organism": "Oryza sativa",
+        "list_name": "H_0_TAGs.tsv"
+    }},
+    "tool_release_date": 20240807,
+    "data_version_release_date": "PANTHER version 19.0 Released 2024-06-20",
+    "annotation_type": "PANTHER GO-Slim Biological Process",
+    "correction": "FDR",
+    "test_type": "FISHER",
+    "group": [
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 17.854616895874265,
+                    "fdr": 0.04405965088050884,
+                    "expected": 0.11201584507042253,
+                    "pValue": 0.003134948090492508,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os10g0573800",
+                        "Os10g0573700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2,
+                "term": {
+                    "level": 0,
+                    "id": "GO:1902475",
+                    "label": "L-alpha-amino acid transmembrane transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 25,
+                    "fold_enrichment": 0.4531628653775194,
+                    "fdr": 1.340743204066402E-4,
+                    "expected": 55.167803697183096,
+                    "pValue": 3.836620150847399E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os08g0398300",
+                        "Os04g0685600",
+                        "Os04g0209300",
+                        "Os04g0209200",
+                        "Os05g0411100",
+                        "Os12g0638200",
+                        "Os01g0871900",
+                        "Os12g0638300",
+                        "Os01g0871600",
+                        "Os01g0871500",
+                        "Os10g0573800",
+                        "Os10g0573700",
+                        "Os01g0605700",
+                        "Os03g0574900",
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os03g0575200",
+                        "Os08g0398350",
+                        "Os01g0597600",
+                        "Os01g0597400",
+                        "Os01g0872100",
+                        "Os01g0872000",
+                        "Os01g0606000",
+                        "Os01g0952100",
+                        "Os01g0952000",
+                        "Os05g0410900"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 985,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0006810",
+                    "label": "transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 25,
+                    "fold_enrichment": 0.4238987867016682,
+                    "fdr": 2.1255208670196464E-5,
+                    "expected": 58.976342429577464,
+                    "pValue": 3.45212205780453E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os08g0398300",
+                        "Os04g0685600",
+                        "Os04g0209300",
+                        "Os04g0209200",
+                        "Os05g0411100",
+                        "Os12g0638200",
+                        "Os01g0871900",
+                        "Os12g0638300",
+                        "Os01g0871600",
+                        "Os01g0871500",
+                        "Os10g0573800",
+                        "Os10g0573700",
+                        "Os01g0605700",
+                        "Os03g0574900",
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os03g0575200",
+                        "Os08g0398350",
+                        "Os01g0597600",
+                        "Os01g0597400",
+                        "Os01g0872100",
+                        "Os01g0872000",
+                        "Os01g0606000",
+                        "Os01g0952100",
+                        "Os01g0952000",
+                        "Os05g0410900"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1053,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0051234",
+                    "label": "establishment of localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 26,
+                    "fold_enrichment": 0.4086444007858546,
+                    "fdr": 4.264117925627839E-6,
+                    "expected": 63.625,
+                    "pValue": 4.9467725355311354E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os08g0398300",
+                        "Os10g0323900",
+                        "Os04g0685600",
+                        "Os04g0209300",
+                        "Os04g0209200",
+                        "Os05g0411100",
+                        "Os12g0638200",
+                        "Os01g0871900",
+                        "Os12g0638300",
+                        "Os01g0871600",
+                        "Os01g0871500",
+                        "Os10g0573800",
+                        "Os10g0573700",
+                        "Os01g0605700",
+                        "Os10g0323600",
+                        "Os03g0574900",
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os03g0575200",
+                        "Os08g0398350",
+                        "Os01g0597600",
+                        "Os01g0597400",
+                        "Os01g0872100",
+                        "Os01g0872000",
+                        "Os01g0606000",
+                        "Os01g0952100",
+                        "Os01g0952000",
+                        "Os05g0410900"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1136,
+                "term": {
+                    "level": 8,
+                    "id": "GO:0051179",
+                    "label": "localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 0.2825097610106687,
+                    "fdr": 0.010388108002573882,
+                    "expected": 17.69850352112676,
+                    "pValue": 5.061491138145047E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os01g0597400",
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os10g0573800",
+                        "Os10g0573700",
+                        "Os01g0597600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 316,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0071705",
+                    "label": "nitrogen compound transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 17.854616895874265,
+                    "fdr": 0.04358589119362164,
+                    "expected": 0.11201584507042253,
+                    "pValue": 0.003134948090492508,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os10g0573800",
+                        "Os10g0573700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0015807",
+                    "label": "L-amino acid transport"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 11.159135559921415,
+                    "fdr": 2.240498593578283E-7,
+                    "expected": 0.8961267605633803,
+                    "pValue": 1.7327908689700564E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0117100",
+                        "Os11g0118000",
+                        "Os12g0117200",
+                        "Os01g0934900",
+                        "Os01g0934700",
+                        "Os05g0370900",
+                        "Os05g0370700",
+                        "Os11g0117900",
+                        "Os01g0557100",
+                        "Os01g0557200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 16,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0009694",
+                    "label": "jasmonic acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 11.159135559921415,
+                    "fdr": 2.4894428817536477E-7,
+                    "expected": 0.8961267605633803,
+                    "pValue": 1.7327908689700564E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0117100",
+                        "Os11g0118000",
+                        "Os12g0117200",
+                        "Os01g0934900",
+                        "Os01g0934700",
+                        "Os05g0370900",
+                        "Os05g0370700",
+                        "Os11g0117900",
+                        "Os01g0557100",
+                        "Os01g0557200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 16,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0001676",
+                    "label": "long-chain fatty acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 14,
+                    "fold_enrichment": 3.622675891916517,
+                    "fdr": 6.854427742377552E-4,
+                    "expected": 3.8645466549295775,
+                    "pValue": 2.3855316968831385E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0117100",
+                        "Os11g0118000",
+                        "Os12g0117200",
+                        "Os11g0117900",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os01g0934900",
+                        "Os02g0654000",
+                        "Os02g0654100",
+                        "Os01g0934700",
+                        "Os05g0370900",
+                        "Os01g0150400",
+                        "Os05g0370700",
+                        "Os01g0150200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 69,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0006631",
+                    "label": "fatty acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 32,
+                    "fold_enrichment": 1.9044924688932547,
+                    "fdr": 0.01072645219145105,
+                    "expected": 16.80237676056338,
+                    "pValue": 5.309303482234085E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0118000",
+                        "Os06g0604200",
+                        "Os06g0570100",
+                        "Os06g0604400",
+                        "Os06g0604300",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os01g0934900",
+                        "Os01g0928600",
+                        "Os01g0928700",
+                        "Os08g0509100",
+                        "Os01g0928800",
+                        "Os01g0934700",
+                        "Os01g0150400",
+                        "Os01g0150200",
+                        "Os12g0117100",
+                        "Os12g0117200",
+                        "Os01g0770100",
+                        "Os01g0770000",
+                        "Os11g0117900",
+                        "Os08g0359200",
+                        "Os08g0508800",
+                        "Os08g0359100",
+                        "Os02g0654000",
+                        "Os02g0654100",
+                        "Os02g0571300",
+                        "Os05g0370900",
+                        "Os05g0370700",
+                        "Os02g0571800",
+                        "Os04g0611800",
+                        "Os06g0569900",
+                        "Os04g0611700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 300,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0044255",
+                    "label": "cellular lipid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 44,
+                    "fold_enrichment": 2.072831512977487,
+                    "fdr": 1.6088255153330763E-4,
+                    "expected": 21.22700264084507,
+                    "pValue": 4.728180168805638E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0518100",
+                        "Os01g0211000",
+                        "Os11g0118000",
+                        "Os06g0604200",
+                        "Os01g0211200",
+                        "Os06g0570100",
+                        "Os06g0604400",
+                        "Os06g0604300",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os01g0934900",
+                        "Os01g0928600",
+                        "Os01g0928700",
+                        "Os08g0509100",
+                        "Os01g0928800",
+                        "Os01g0934700",
+                        "Os01g0150400",
+                        "Os04g0354400",
+                        "Os01g0150200",
+                        "Os01g0211600",
+                        "Os12g0117100",
+                        "Os12g0117200",
+                        "Os07g0519100",
+                        "Os07g0519300",
+                        "Os01g0770100",
+                        "Os01g0770000",
+                        "Os11g0117900",
+                        "Os08g0359200",
+                        "Os08g0508800",
+                        "Os08g0359100",
+                        "Os02g0654000",
+                        "Os02g0654100",
+                        "Os10g0378000",
+                        "Os02g0571300",
+                        "Os10g0378100",
+                        "Os05g0370900",
+                        "Os07g0517900",
+                        "Os01g0210900",
+                        "Os05g0370700",
+                        "Os02g0571800",
+                        "Os04g0611800",
+                        "Os04g0353600",
+                        "Os06g0569900",
+                        "Os04g0611700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 379,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0006629",
+                    "label": "lipid metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 6.5466928618205635,
+                    "fdr": 2.1551665102867662E-5,
+                    "expected": 1.680237676056338,
+                    "pValue": 3.333590889848053E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0454000",
+                        "Os06g0527800",
+                        "Os11g0454200",
+                        "Os12g0555200",
+                        "Os12g0555100",
+                        "Os06g0528300",
+                        "Os12g0555000",
+                        "Os04g0593400",
+                        "Os04g0593500",
+                        "Os11g0453900",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 30,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0009737",
+                    "label": "response to abscisic acid"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 3.9280157170923378,
+                    "fdr": 0.0021367115477030755,
+                    "expected": 2.8003961267605635,
+                    "pValue": 8.09736008023594E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0454000",
+                        "Os06g0527800",
+                        "Os11g0454200",
+                        "Os12g0555200",
+                        "Os12g0555100",
+                        "Os06g0528300",
+                        "Os12g0555000",
+                        "Os04g0593400",
+                        "Os04g0593500",
+                        "Os11g0453900",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 50,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0033993",
+                    "label": "response to lipid"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 26,
+                    "fold_enrichment": 2.0632001746343596,
+                    "fdr": 0.011382894035176774,
+                    "expected": 12.601782570422534,
+                    "pValue": 6.162432965679614E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os01g0135900",
+                        "Os02g0635000",
+                        "Os04g0206450",
+                        "Os11g0453900",
+                        "Os12g0178100",
+                        "Os04g0482100",
+                        "Os03g0267000",
+                        "Os12g0178200",
+                        "Os04g0482000",
+                        "Os06g0528300",
+                        "Os04g0593400",
+                        "Os04g0593500",
+                        "Os04g0203600",
+                        "Os04g0206600",
+                        "Os04g0204100",
+                        "Os06g0527800",
+                        "Os03g0266900",
+                        "Os11g0454000",
+                        "Os11g0454200",
+                        "Os12g0555200",
+                        "Os12g0555100",
+                        "Os12g0555000",
+                        "Os01g0136200",
+                        "Os01g0136000",
+                        "Os01g0136100",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 225,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0042221",
+                    "label": "response to chemical"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 19,
+                    "fold_enrichment": 2.7357880727549273,
+                    "fdr": 0.0016371165252040837,
+                    "expected": 6.944982394366197,
+                    "pValue": 6.077462738576645E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os01g0135900",
+                        "Os06g0527800",
+                        "Os03g0266900",
+                        "Os11g0453900",
+                        "Os12g0178100",
+                        "Os11g0454000",
+                        "Os03g0267000",
+                        "Os12g0178200",
+                        "Os11g0454200",
+                        "Os12g0555200",
+                        "Os12g0555100",
+                        "Os06g0528300",
+                        "Os12g0555000",
+                        "Os01g0136200",
+                        "Os01g0136000",
+                        "Os04g0593400",
+                        "Os04g0593500",
+                        "Os01g0136100",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 124,
+                "term": {
+                    "level": 1,
+                    "id": "GO:1901700",
+                    "label": "response to oxygen-containing compound"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 20,
+                    "fold_enrichment": 5.493728275653619,
+                    "fdr": 3.3066658940028295E-8,
+                    "expected": 3.6405149647887325,
+                    "pValue": 2.0458876374340787E-10,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os10g0530200",
+                        "Os01g0371500",
+                        "Os10g0529300",
+                        "Os10g0528200",
+                        "Os01g0371400",
+                        "Os01g0949800",
+                        "Os10g0528300",
+                        "Os01g0371200",
+                        "Os10g0529700",
+                        "Os10g0529400",
+                        "Os10g0527400",
+                        "Os10g0527601",
+                        "Os12g0210300",
+                        "Os10g0529800",
+                        "Os10g0528900",
+                        "Os10g0527800",
+                        "Os01g0949700",
+                        "Os01g0370900",
+                        "Os01g0949750",
+                        "Os12g0210200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 65,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006749",
+                    "label": "glutathione metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 22,
+                    "fold_enrichment": 4.316500788013559,
+                    "fdr": 4.1829823848235953E-7,
+                    "expected": 5.096720950704225,
+                    "pValue": 4.2056280744552775E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os10g0530200",
+                        "Os01g0371500",
+                        "Os10g0529300",
+                        "Os10g0528200",
+                        "Os01g0371400",
+                        "Os01g0949800",
+                        "Os10g0528300",
+                        "Os01g0371200",
+                        "Os10g0529700",
+                        "Os10g0529400",
+                        "Os10g0527400",
+                        "Os10g0527601",
+                        "Os12g0210300",
+                        "Os10g0529800",
+                        "Os10g0528900",
+                        "Os10g0527800",
+                        "Os01g0949700",
+                        "Os01g0370900",
+                        "Os01g0949750",
+                        "Os12g0210200",
+                        "Os03g0166200",
+                        "Os03g0166100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 91,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006575",
+                    "label": "cellular modified amino acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 125,
+                    "fold_enrichment": 0.7828225576935401,
+                    "fdr": 0.038002004701200166,
+                    "expected": 159.67858714788733,
+                    "pValue": 0.0025569794346515197,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os01g0918300",
+                        "Os01g0135900",
+                        "Os10g0529400",
+                        "Os07g0541500",
+                        "Os10g0529800",
+                        "Os03g0177500",
+                        "Os09g0564700",
+                        "Os02g0721200",
+                        "Os04g0368300",
+                        "Os01g0699400",
+                        "Os01g0951400",
+                        "Os01g0371500",
+                        "Os10g0528200",
+                        "Os07g0628700",
+                        "Os11g0440200",
+                        "Os05g0317700",
+                        "Os03g0266900",
+                        "Os06g0708500",
+                        "Os09g0561600",
+                        "Os01g0613500",
+                        "Os05g0124600",
+                        "Os03g0283100",
+                        "Os08g0527900",
+                        "Os10g0399200",
+                        "Os07g0515900",
+                        "Os07g0540800",
+                        "Os03g0166200",
+                        "Os04g0370500",
+                        "Os09g0551400",
+                        "Os06g0526700",
+                        "Os09g0564400",
+                        "Os10g0529300",
+                        "Os07g0541000",
+                        "Os04g0308100",
+                        "Os10g0529700",
+                        "Os07g0541400",
+                        "Os10g0527400",
+                        "Os10g0527800",
+                        "Os01g0949700",
+                        "Os08g0375700",
+                        "Os02g0721100",
+                        "Os01g0370900",
+                        "Os08g0528000",
+                        "Os01g0928600",
+                        "Os05g0545400",
+                        "Os01g0899350",
+                        "Os01g0150200",
+                        "Os06g0564500",
+                        "Os01g0371200",
+                        "Os07g0542600",
+                        "Os06g0708400",
+                        "Os08g0527600",
+                        "Os10g0399700",
+                        "Os10g0528900",
+                        "Os01g0613800",
+                        "Os01g0136200",
+                        "Os02g0294700",
+                        "Os09g0551500",
+                        "Os06g0526800",
+                        "Os04g0614500",
+                        "Os01g0949800",
+                        "Os05g0545300",
+                        "Os12g0427450",
+                        "Os09g0420000",
+                        "Os12g0210200",
+                        "Os01g0928700",
+                        "Os01g0699600",
+                        "Os10g0419500",
+                        "Os07g0625500",
+                        "Os01g0951200",
+                        "Os10g0530200",
+                        "Os04g0634000",
+                        "Os05g0317900",
+                        "Os04g0634400",
+                        "Os01g0786800",
+                        "Os01g0949750",
+                        "Os07g0515700",
+                        "Os05g0124000",
+                        "Os12g0517000",
+                        "Os04g0669600",
+                        "Os04g0632901",
+                        "Os01g0136100",
+                        "Os07g0628900",
+                        "Os03g0797400",
+                        "Os09g0551201",
+                        "Os09g0561450",
+                        "Os04g0614600",
+                        "Os01g0918200",
+                        "Os07g0541200",
+                        "Os04g0633200",
+                        "Os10g0527601",
+                        "Os12g0210300",
+                        "Os04g0368800",
+                        "Os05g0496500",
+                        "Os08g0375500",
+                        "Os09g0564600",
+                        "Os09g0420100",
+                        "Os03g0267000",
+                        "Os09g0551251",
+                        "Os04g0368000",
+                        "Os01g0928800",
+                        "Os01g0899275",
+                        "Os01g0150400",
+                        "Os01g0699500",
+                        "Os04g0354400",
+                        "Os10g0419400",
+                        "Os07g0625600",
+                        "Os02g0295700",
+                        "Os01g0699100",
+                        "Os06g0564700",
+                        "Os03g0797500",
+                        "Os01g0371400",
+                        "Os10g0528300",
+                        "Os07g0542400",
+                        "Os01g0786700",
+                        "Os03g0283200",
+                        "Os09g0561500",
+                        "Os10g0399100",
+                        "Os04g0307900",
+                        "Os11g0439600",
+                        "Os04g0370600",
+                        "Os03g0166100",
+                        "Os01g0136000",
+                        "Os04g0353600",
+                        "Os12g0517100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 2851,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0006807",
+                    "label": "nitrogen compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 35,
+                    "fold_enrichment": 3.633206926486042,
+                    "fdr": 6.331165178991923E-9,
+                    "expected": 9.633362676056338,
+                    "pValue": 2.4482463955885243E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os04g0614600",
+                        "Os10g0529300",
+                        "Os04g0614500",
+                        "Os01g0949800",
+                        "Os10g0529700",
+                        "Os10g0529400",
+                        "Os10g0527400",
+                        "Os10g0527601",
+                        "Os12g0210300",
+                        "Os10g0529800",
+                        "Os10g0527800",
+                        "Os01g0949700",
+                        "Os01g0370900",
+                        "Os07g0558300",
+                        "Os07g0558200",
+                        "Os12g0210200",
+                        "Os10g0419500",
+                        "Os04g0354400",
+                        "Os10g0419400",
+                        "Os06g0564500",
+                        "Os08g0239900",
+                        "Os06g0564700",
+                        "Os10g0530200",
+                        "Os01g0371500",
+                        "Os08g0240000",
+                        "Os10g0528200",
+                        "Os01g0371400",
+                        "Os10g0528300",
+                        "Os01g0371200",
+                        "Os10g0399700",
+                        "Os10g0528900",
+                        "Os01g0949750",
+                        "Os10g0399200",
+                        "Os10g0399100",
+                        "Os04g0353600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 172,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006790",
+                    "label": "sulfur compound metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 6,
+                    "fold_enrichment": 5.35638506876228,
+                    "fdr": 0.011749182975109743,
+                    "expected": 1.1201584507042253,
+                    "pValue": 5.997262771517734E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os06g0570100",
+                        "Os02g0571300",
+                        "Os02g0571800",
+                        "Os04g0611800",
+                        "Os06g0569900",
+                        "Os04g0611700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 20,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0016102",
+                    "label": "diterpenoid biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 52,
+                    "fold_enrichment": 0.6515368972529555,
+                    "fdr": 0.012850522363681654,
+                    "expected": 79.81128961267606,
+                    "pValue": 7.15574331156287E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os07g0604400",
+                        "Os01g0135900",
+                        "Os09g0478100",
+                        "Os04g0614500",
+                        "Os10g0168500",
+                        "Os10g0168300",
+                        "Os03g0177500",
+                        "Os06g0212300",
+                        "Os06g0212100",
+                        "Os01g0928700",
+                        "Os06g0212500",
+                        "Os01g0951400",
+                        "Os01g0951200",
+                        "Os09g0399800",
+                        "Os01g0770100",
+                        "Os03g0266900",
+                        "Os06g0708500",
+                        "Os02g0764200",
+                        "Os10g0399200",
+                        "Os10g0378000",
+                        "Os02g0571300",
+                        "Os04g0449100",
+                        "Os01g0136100",
+                        "Os03g0797400",
+                        "Os06g0569900",
+                        "Os04g0611700",
+                        "Os04g0614600",
+                        "Os06g0570100",
+                        "Os07g0604300",
+                        "Os03g0267000",
+                        "Os01g0928600",
+                        "Os06g0212400",
+                        "Os01g0928800",
+                        "Os01g0899275",
+                        "Os01g0150400",
+                        "Os01g0899350",
+                        "Os04g0354400",
+                        "Os01g0150200",
+                        "Os06g0564500",
+                        "Os06g0564700",
+                        "Os03g0797500",
+                        "Os01g0770000",
+                        "Os06g0708400",
+                        "Os10g0399700",
+                        "Os10g0399100",
+                        "Os10g0378100",
+                        "Os01g0136200",
+                        "Os04g0449200",
+                        "Os01g0136000",
+                        "Os02g0571800",
+                        "Os04g0611800",
+                        "Os04g0353600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1425,
+                "term": {
+                    "level": 4,
+                    "id": "GO:1901576",
+                    "label": "organic substance biosynthetic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 4.959615804409518,
+                    "fdr": 0.03863254841524545,
+                    "expected": 1.0081426056338028,
+                    "pValue": 0.002539649354443823,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os04g0206600",
+                        "Os04g0204100",
+                        "Os02g0635000",
+                        "Os04g0206450",
+                        "Os04g0203600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 18,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0098754",
+                    "label": "detoxification"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 4.959615804409518,
+                    "fdr": 0.03818333273599841,
+                    "expected": 1.0081426056338028,
+                    "pValue": 0.002539649354443823,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os04g0206600",
+                        "Os04g0204100",
+                        "Os02g0635000",
+                        "Os04g0206450",
+                        "Os04g0203600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 18,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0009636",
+                    "label": "response to toxic substance"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 4.463654223968566,
+                    "fdr": 0.0014656635121731913,
+                    "expected": 2.2403169014084505,
+                    "pValue": 5.327624522207269E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os06g0212300",
+                        "Os07g0604400",
+                        "Os06g0212100",
+                        "Os07g0604300",
+                        "Os09g0478100",
+                        "Os06g0212500",
+                        "Os06g0212400",
+                        "Os04g0449100",
+                        "Os04g0449200",
+                        "Os02g0764200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 40,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0009250",
+                    "label": "glucan biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 91,
+                    "fold_enrichment": 0.6465460157280374,
+                    "fdr": 8.867068663985187E-5,
+                    "expected": 140.74790933098592,
+                    "pValue": 2.057324516005844E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os01g0918300",
+                        "Os07g0604400",
+                        "Os01g0135900",
+                        "Os06g0526800",
+                        "Os09g0478100",
+                        "Os05g0545300",
+                        "Os07g0541500",
+                        "Os03g0177500",
+                        "Os09g0564700",
+                        "Os02g0721200",
+                        "Os06g0212300",
+                        "Os12g0427450",
+                        "Os06g0212100",
+                        "Os09g0420000",
+                        "Os06g0212500",
+                        "Os04g0368300",
+                        "Os01g0699400",
+                        "Os01g0699600",
+                        "Os07g0625500",
+                        "Os04g0634000",
+                        "Os07g0628700",
+                        "Os05g0317900",
+                        "Os04g0634400",
+                        "Os05g0317700",
+                        "Os03g0266900",
+                        "Os06g0708500",
+                        "Os09g0561600",
+                        "Os01g0613500",
+                        "Os01g0786800",
+                        "Os05g0124600",
+                        "Os03g0283100",
+                        "Os02g0764200",
+                        "Os08g0527900",
+                        "Os07g0515900",
+                        "Os07g0540800",
+                        "Os07g0515700",
+                        "Os05g0124000",
+                        "Os12g0517000",
+                        "Os04g0449100",
+                        "Os03g0166200",
+                        "Os04g0370500",
+                        "Os04g0669600",
+                        "Os04g0632901",
+                        "Os01g0136100",
+                        "Os07g0628900",
+                        "Os09g0551400",
+                        "Os09g0551201",
+                        "Os09g0561450",
+                        "Os06g0526700",
+                        "Os09g0564400",
+                        "Os01g0918200",
+                        "Os07g0541000",
+                        "Os04g0308100",
+                        "Os07g0604300",
+                        "Os07g0541200",
+                        "Os07g0541400",
+                        "Os04g0633200",
+                        "Os04g0368800",
+                        "Os08g0375700",
+                        "Os05g0496500",
+                        "Os02g0721100",
+                        "Os08g0375500",
+                        "Os09g0564600",
+                        "Os08g0528000",
+                        "Os09g0420100",
+                        "Os03g0267000",
+                        "Os09g0551251",
+                        "Os04g0368000",
+                        "Os06g0212400",
+                        "Os01g0699500",
+                        "Os05g0545400",
+                        "Os07g0625600",
+                        "Os02g0295700",
+                        "Os01g0699100",
+                        "Os07g0542400",
+                        "Os07g0542600",
+                        "Os06g0708400",
+                        "Os08g0527600",
+                        "Os01g0786700",
+                        "Os03g0283200",
+                        "Os09g0561500",
+                        "Os01g0613800",
+                        "Os04g0307900",
+                        "Os04g0370600",
+                        "Os03g0166100",
+                        "Os01g0136200",
+                        "Os02g0294700",
+                        "Os04g0449200",
+                        "Os01g0136000",
+                        "Os09g0551500",
+                        "Os12g0517100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 2513,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0043170",
+                    "label": "macromolecule metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 19,
+                    "fold_enrichment": 0.3563421439302637,
+                    "fdr": 3.358527508106657E-6,
+                    "expected": 53.31954225352112,
+                    "pValue": 3.636456698646032E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os07g0604400",
+                        "Os01g0135900",
+                        "Os07g0604300",
+                        "Os09g0478100",
+                        "Os06g0708400",
+                        "Os03g0266900",
+                        "Os06g0708500",
+                        "Os03g0177500",
+                        "Os02g0764200",
+                        "Os06g0212300",
+                        "Os06g0212100",
+                        "Os03g0267000",
+                        "Os06g0212500",
+                        "Os06g0212400",
+                        "Os04g0449100",
+                        "Os01g0136200",
+                        "Os04g0449200",
+                        "Os01g0136000",
+                        "Os01g0136100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 952,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0009059",
+                    "label": "macromolecule biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 3.246293981068048,
+                    "fdr": 0.0147512700146098,
+                    "expected": 3.08043573943662,
+                    "pValue": 8.556421122163457E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os06g0212300",
+                        "Os07g0604400",
+                        "Os06g0212100",
+                        "Os07g0604300",
+                        "Os09g0478100",
+                        "Os06g0212500",
+                        "Os06g0212400",
+                        "Os04g0449100",
+                        "Os04g0449200",
+                        "Os02g0764200"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 55,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0044042",
+                    "label": "glucan metabolic process"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 6,
+                "fold_enrichment": 4.120296206740215,
+                "fdr": 0.03877876112633663,
+                "expected": 1.456205985915493,
+                "pValue": 0.0026692264039009745,
+                "mapped_id_list": {"mapped_id": [
+                    "Os01g0135900",
+                    "Os03g0267000",
+                    "Os03g0266900",
+                    "Os01g0136200",
+                    "Os01g0136000",
+                    "Os01g0136100"
+                ]},
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 26,
+            "term": {
+                "level": 0,
+                "id": "GO:0009651",
+                "label": "response to salt stress"
+            }
+        }},
+        {"result": {
+            "input_list": {
+                "number_in_list": 8,
+                "fold_enrichment": 3.8604577072160566,
+                "fdr": 0.014920226860425184,
+                "expected": 2.072293133802817,
+                "pValue": 8.539031613855094E-4,
+                "mapped_id_list": {"mapped_id": [
+                    "Os06g0527800",
+                    "Os12g0555200",
+                    "Os12g0555100",
+                    "Os06g0528300",
+                    "Os12g0555000",
+                    "Os04g0593400",
+                    "Os04g0593500",
+                    "Os12g0555300"
+                ]},
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 37,
+            "term": {
+                "level": 0,
+                "id": "GO:0071396",
+                "label": "cellular response to lipid"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 3.758866714920898,
+                    "fdr": 0.017508583165793377,
+                    "expected": 2.128301056338028,
+                    "pValue": 0.0010291201242074994,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0178100",
+                        "Os01g0135900",
+                        "Os03g0267000",
+                        "Os12g0178200",
+                        "Os03g0266900",
+                        "Os01g0136200",
+                        "Os01g0136000",
+                        "Os01g0136100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 38,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0000302",
+                    "label": "response to reactive oxygen species"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 3.306410536273012,
+                    "fdr": 0.013045720067286826,
+                    "expected": 3.0244278169014085,
+                    "pValue": 7.365333061963946E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0178100",
+                        "Os01g0135900",
+                        "Os04g0482100",
+                        "Os03g0267000",
+                        "Os12g0178200",
+                        "Os04g0482000",
+                        "Os03g0266900",
+                        "Os01g0136200",
+                        "Os01g0136000",
+                        "Os01g0136100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 54,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006979",
+                    "label": "response to oxidative stress"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 17,
+                "fold_enrichment": 3.0352848722986248,
+                "fdr": 0.0010737112591498274,
+                "expected": 5.600792253521127,
+                "pValue": 3.819854440904259E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "Os04g0175900",
+                    "Os04g0175600",
+                    "Os06g0314600",
+                    "Os05g0515500",
+                    "Os05g0515600",
+                    "Os06g0322400",
+                    "Os06g0315000",
+                    "Os06g0241400",
+                    "Os06g0315300",
+                    "Os06g0323100",
+                    "Os11g0306400",
+                    "Os11g0306300",
+                    "Os11g0307300",
+                    "Os12g0445300",
+                    "Os12g0441600",
+                    "Os06g0242000",
+                    "Os12g0441300"
+                ]},
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 100,
+            "term": {
+                "level": 0,
+                "id": "GO:0032259",
+                "label": "methylation"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 2.9757694826457106,
+                    "fdr": 0.02699369902916068,
+                    "expected": 3.360475352112676,
+                    "pValue": 0.0017118973862267407,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0518100",
+                        "Os01g0211000",
+                        "Os07g0519100",
+                        "Os01g0211200",
+                        "Os07g0519300",
+                        "Os10g0378000",
+                        "Os10g0378100",
+                        "Os07g0517900",
+                        "Os01g0210900",
+                        "Os01g0211600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 60,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0016125",
+                    "label": "sterol metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 2.8797769186893976,
+                    "fdr": 0.03396450328592882,
+                    "expected": 3.4724911971830985,
+                    "pValue": 0.0022065106543062807,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0518100",
+                        "Os01g0211000",
+                        "Os07g0519100",
+                        "Os01g0211200",
+                        "Os07g0519300",
+                        "Os10g0378000",
+                        "Os10g0378100",
+                        "Os07g0517900",
+                        "Os01g0210900",
+                        "Os01g0211600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 62,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0008202",
+                    "label": "steroid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 39,
+                    "fold_enrichment": 0.608680121450259,
+                    "fdr": 0.011396876319998719,
+                    "expected": 64.0730633802817,
+                    "pValue": 6.081859753131568E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0518100",
+                        "Os04g0614600",
+                        "Os01g0211000",
+                        "Os11g0118000",
+                        "Os01g0211200",
+                        "Os04g0614500",
+                        "Os12g0210300",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os01g0934900",
+                        "Os12g0210200",
+                        "Os01g0934700",
+                        "Os01g0899275",
+                        "Os01g0899350",
+                        "Os01g0951400",
+                        "Os04g0354400",
+                        "Os02g0295700",
+                        "Os01g0951200",
+                        "Os01g0211600",
+                        "Os12g0117100",
+                        "Os12g0117200",
+                        "Os03g0797500",
+                        "Os07g0519100",
+                        "Os09g0399800",
+                        "Os07g0519300",
+                        "Os11g0440200",
+                        "Os11g0117900",
+                        "Os11g0439600",
+                        "Os10g0378000",
+                        "Os10g0378100",
+                        "Os05g0370900",
+                        "Os03g0166200",
+                        "Os03g0166100",
+                        "Os07g0517900",
+                        "Os01g0210900",
+                        "Os05g0370700",
+                        "Os02g0294700",
+                        "Os04g0353600",
+                        "Os03g0797400"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1144,
+                "term": {
+                    "level": 2,
+                    "id": "GO:1901360",
+                    "label": "organic cyclic compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 23,
+                    "fold_enrichment": 3.208251473477407,
+                    "fdr": 3.651711918110762E-5,
+                    "expected": 7.169014084507042,
+                    "pValue": 6.495697920846676E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0518100",
+                        "Os12g0117100",
+                        "Os01g0211000",
+                        "Os11g0118000",
+                        "Os12g0117200",
+                        "Os07g0519100",
+                        "Os01g0211200",
+                        "Os07g0519300",
+                        "Os11g0117900",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os01g0934900",
+                        "Os01g0928600",
+                        "Os01g0928700",
+                        "Os10g0378000",
+                        "Os01g0928800",
+                        "Os01g0934700",
+                        "Os10g0378100",
+                        "Os05g0370900",
+                        "Os07g0517900",
+                        "Os01g0210900",
+                        "Os05g0370700",
+                        "Os01g0211600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 128,
+                "term": {
+                    "level": 1,
+                    "id": "GO:1901615",
+                    "label": "organic hydroxy compound metabolic process"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 9,
+                "fold_enrichment": 0.3163219528796622,
+                "fdr": 6.789688976855155E-4,
+                "expected": 28.45202464788732,
+                "pValue": 2.3104896750319164E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "Os03g0820600",
+                    "Os12g0239200",
+                    "Os03g0302000",
+                    "Os02g0294700",
+                    "Os02g0295700",
+                    "Os01g0896700",
+                    "Os12g0239000",
+                    "Os03g0301950",
+                    "Os03g0820500"
+                ]},
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "-"
+            },
+            "number_in_reference": 508,
+            "term": {
+                "level": 0,
+                "id": "GO:0006996",
+                "label": "organelle organization"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.11229318802436643,
+                    "fdr": 0.03771564477301926,
+                    "expected": 8.905259683098592,
+                    "pValue": 0.0025668806960755567,
+                    "mapped_id_list": {"mapped_id": "Os01g0896700"},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 159,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0042254",
+                    "label": "ribosome biogenesis"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.0875226318425209,
+                    "fdr": 0.004339399299678358,
+                    "expected": 11.425616197183098,
+                    "pValue": 1.7787174236887315E-4,
+                    "mapped_id_list": {"mapped_id": "Os01g0896700"},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 204,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0022613",
+                    "label": "ribonucleoprotein complex biogenesis"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.09347966961190714,
+                    "fdr": 0.008466484277448666,
+                    "expected": 10.697513204225352,
+                    "pValue": 3.797804238917422E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os03g0177500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 191,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006412",
+                    "label": "translation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 0.20289337381675301,
+                    "fdr": 1.1217806849893135E-8,
+                    "expected": 44.35827464788732,
+                    "pValue": 6.073058619431705E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os01g0135900",
+                        "Os03g0267000",
+                        "Os06g0708400",
+                        "Os03g0266900",
+                        "Os06g0708500",
+                        "Os01g0136200",
+                        "Os01g0136000",
+                        "Os03g0177500",
+                        "Os01g0136100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 792,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0010467",
+                    "label": "gene expression"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.09347966961190714,
+                    "fdr": 0.008322984543932587,
+                    "expected": 10.697513204225352,
+                    "pValue": 3.797804238917422E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os03g0177500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 191,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0043043",
+                    "label": "peptide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 0.27375051458751,
+                    "fdr": 3.657215318621293E-10,
+                    "expected": 65.75330105633803,
+                    "pValue": 1.1313891163561617E-12,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os03g0177900",
+                        "Os04g0614600",
+                        "Os03g0797500",
+                        "Os04g0614500",
+                        "Os11g0440200",
+                        "Os03g0177500",
+                        "Os01g0928600",
+                        "Os01g0928700",
+                        "Os11g0439600",
+                        "Os01g0928800",
+                        "Os01g0899275",
+                        "Os01g0899350",
+                        "Os01g0951400",
+                        "Os02g0294700",
+                        "Os04g0354400",
+                        "Os02g0295700",
+                        "Os01g0951200",
+                        "Os04g0353600",
+                        "Os03g0797400"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1174,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0034641",
+                    "label": "cellular nitrogen compound metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.09203410771069208,
+                    "fdr": 0.008469141542043066,
+                    "expected": 10.865536971830986,
+                    "pValue": 3.9954960097805646E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 194,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0015031",
+                    "label": "protein transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.07228589836386341,
+                    "fdr": 5.623290732930599E-4,
+                    "expected": 13.833956866197184,
+                    "pValue": 1.8700812182213126E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 247,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0045184",
+                    "label": "establishment of protein localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.11229318802436643,
+                    "fdr": 1.3023688882104548E-4,
+                    "expected": 17.810519366197184,
+                    "pValue": 3.525360486261865E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os10g0323900",
+                        "Os10g0323600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 318,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0008104",
+                    "label": "protein localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.11229318802436643,
+                    "fdr": 1.3406738555107623E-4,
+                    "expected": 17.810519366197184,
+                    "pValue": 3.525360486261865E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os10g0323900",
+                        "Os10g0323600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 318,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0070727",
+                    "label": "cellular macromolecule localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.07813836715918714,
+                    "fdr": 2.3217340780955634E-7,
+                    "expected": 25.59562059859155,
+                    "pValue": 1.975179803484238E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os10g0323900",
+                        "Os10g0323600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 457,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0051641",
+                    "label": "cellular localization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 0.19460072911034618,
+                    "fdr": 4.98528093476685E-4,
+                    "expected": 20.554907570422536,
+                    "pValue": 1.619348795515914E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os08g0398300",
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os10g0323900",
+                        "Os08g0398350",
+                        "Os10g0323600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 367,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0033036",
+                    "label": "macromolecule localization"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.06662170483535172,
+                    "fdr": 1.9890156048550935E-4,
+                    "expected": 15.01012323943662,
+                    "pValue": 5.999351012323947E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 268,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0046907",
+                    "label": "intracellular transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 1,
+                    "fold_enrichment": 0.061995197555118974,
+                    "fdr": 8.449455507533755E-5,
+                    "expected": 16.130281690140844,
+                    "pValue": 1.8950828284491793E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 288,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0051649",
+                    "label": "establishment of localization in cell"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.0021252342184375035,
+                    "expected": 9.633362676056338,
+                    "pValue": 8.218229769673255E-5,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 172,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0009451",
+                    "label": "RNA modification"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.05686183724800721,
+                    "fdr": 8.971849911170078E-11,
+                    "expected": 35.17297535211267,
+                    "pValue": 2.081635710248278E-13,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os02g0294700",
+                        "Os02g0295700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 628,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0016070",
+                    "label": "RNA metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.04560566256928292,
+                    "fdr": 3.1560788303975884E-14,
+                    "expected": 43.854203345070424,
+                    "pValue": 2.4408962338728448E-17,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os02g0294700",
+                        "Os02g0295700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 783,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0090304",
+                    "label": "nucleic acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 0.18540619829568292,
+                    "fdr": 7.133673193265535E-11,
+                    "expected": 53.93562940140845,
+                    "pValue": 1.1034297282699976E-13,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0440200",
+                        "Os11g0439600",
+                        "Os01g0899275",
+                        "Os01g0899350",
+                        "Os01g0951400",
+                        "Os02g0294700",
+                        "Os04g0354400",
+                        "Os02g0295700",
+                        "Os01g0951200",
+                        "Os04g0353600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 963,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0006139",
+                    "label": "nucleobase-containing compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 0.2754810707174428,
+                    "fdr": 6.823571042836107E-9,
+                    "expected": 58.08021566901408,
+                    "pValue": 3.166390275097962E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os04g0614600",
+                        "Os03g0797500",
+                        "Os04g0614500",
+                        "Os11g0440200",
+                        "Os11g0439600",
+                        "Os01g0899275",
+                        "Os03g0166200",
+                        "Os03g0166100",
+                        "Os01g0899350",
+                        "Os01g0951400",
+                        "Os02g0294700",
+                        "Os04g0354400",
+                        "Os02g0295700",
+                        "Os01g0951200",
+                        "Os04g0353600",
+                        "Os03g0797400"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1037,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0046483",
+                    "label": "heterocycle metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 35,
+                    "fold_enrichment": 0.5696550513724696,
+                    "fdr": 0.004998173014699188,
+                    "expected": 61.44069102112677,
+                    "pValue": 2.1260596736926167E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os04g0175900",
+                        "Os11g0118000",
+                        "Os04g0175600",
+                        "Os12g0210300",
+                        "Os01g0557100",
+                        "Os01g0557200",
+                        "Os05g0515500",
+                        "Os05g0515600",
+                        "Os01g0934900",
+                        "Os12g0210200",
+                        "Os01g0934700",
+                        "Os11g0306400",
+                        "Os11g0306300",
+                        "Os01g0899275",
+                        "Os01g0899350",
+                        "Os01g0951400",
+                        "Os04g0354400",
+                        "Os02g0295700",
+                        "Os12g0445300",
+                        "Os01g0951200",
+                        "Os12g0441600",
+                        "Os12g0441300",
+                        "Os12g0117100",
+                        "Os12g0117200",
+                        "Os03g0797500",
+                        "Os09g0399800",
+                        "Os11g0440200",
+                        "Os11g0117900",
+                        "Os11g0439600",
+                        "Os05g0370900",
+                        "Os11g0307300",
+                        "Os05g0370700",
+                        "Os02g0294700",
+                        "Os04g0353600",
+                        "Os03g0797400"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1097,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0006725",
+                    "label": "cellular aromatic compound metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.004382197668387268,
+                    "expected": 8.905259683098592,
+                    "pValue": 1.8301521584912026E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 159,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0034470",
+                    "label": "ncRNA processing"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 4.3628041172340615E-7,
+                    "expected": 19.266725352112676,
+                    "pValue": 4.049006141284512E-9,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 344,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006396",
+                    "label": "RNA processing"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 2.645048249605375E-4,
+                    "expected": 12.209727112676054,
+                    "pValue": 8.387237295732434E-6,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 218,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0034660",
+                    "label": "ncRNA metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 1.4414023304647487E-5,
+                    "expected": 15.290162852112676,
+                    "pValue": 2.1180699364911236E-7,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 273,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006357",
+                    "label": "regulation of transcription by RNA polymerase II"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 0.24127860670100357,
+                    "fdr": 5.0306683998377966E-5,
+                    "expected": 29.012103873239436,
+                    "pValue": 1.0115806527129367E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 518,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006355",
+                    "label": "regulation of DNA-templated transcription"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 0.3128167380678779,
+                    "fdr": 1.3311962228338485E-5,
+                    "expected": 41.55787852112676,
+                    "pValue": 1.6472652409390237E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 742,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0010468",
+                    "label": "regulation of gene expression"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 0.3123957195778808,
+                    "fdr": 1.2542085365743448E-5,
+                    "expected": 41.61388644366197,
+                    "pValue": 1.6489980759291463E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 743,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0010556",
+                    "label": "regulation of macromolecule biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 15,
+                    "fold_enrichment": 0.3510081958559816,
+                    "fdr": 4.5731918699755294E-5,
+                    "expected": 42.7340448943662,
+                    "pValue": 8.488523192529986E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0664800",
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600",
+                        "Os11g0664500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 763,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0031326",
+                    "label": "regulation of cellular biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 0.3462713579805918,
+                    "fdr": 1.4087728421159436E-5,
+                    "expected": 46.206536091549296,
+                    "pValue": 1.961168689720571E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0664800",
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0607100",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600",
+                        "Os11g0664500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 825,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0031323",
+                    "label": "regulation of cellular metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 43,
+                    "fold_enrichment": 0.6069158312431567,
+                    "fdr": 0.0061929764912267106,
+                    "expected": 70.85002200704226,
+                    "pValue": 2.682186260701437E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545400",
+                        "Os09g0561450",
+                        "Os04g0308100",
+                        "Os07g0545300",
+                        "Os10g0323900",
+                        "Os05g0545300",
+                        "Os05g0440300",
+                        "Os04g0368800",
+                        "Os01g0357900",
+                        "Os11g0705200",
+                        "Os12g0427450",
+                        "Os04g0368000",
+                        "Os03g0437200",
+                        "Os03g0437100",
+                        "Os04g0368300",
+                        "Os01g0699400",
+                        "Os11g0705900",
+                        "Os01g0699500",
+                        "Os05g0545400",
+                        "Os06g0528300",
+                        "Os01g0699600",
+                        "Os02g0607100",
+                        "Os10g0323600",
+                        "Os02g0295700",
+                        "Os04g0593400",
+                        "Os04g0593500",
+                        "Os01g0699100",
+                        "Os11g0664800",
+                        "Os06g0527800",
+                        "Os09g0561600",
+                        "Os09g0561500",
+                        "Os12g0427100",
+                        "Os04g0307900",
+                        "Os01g0358100",
+                        "Os04g0393100",
+                        "Os12g0555200",
+                        "Os12g0555100",
+                        "Os12g0555000",
+                        "Os02g0294700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600",
+                        "Os11g0664500",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1265,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0050794",
+                    "label": "regulation of cellular process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 49,
+                    "fold_enrichment": 0.6607826494696669,
+                    "fdr": 0.02251852691383958,
+                    "expected": 74.15448943661971,
+                    "pValue": 0.0014106733797532916,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545300",
+                        "Os05g0545300",
+                        "Os01g0357900",
+                        "Os12g0427450",
+                        "Os03g0437100",
+                        "Os04g0368300",
+                        "Os01g0699400",
+                        "Os11g0705900",
+                        "Os06g0528300",
+                        "Os01g0699600",
+                        "Os10g0323600",
+                        "Os04g0593400",
+                        "Os09g0561600",
+                        "Os05g0124600",
+                        "Os12g0427100",
+                        "Os07g0515900",
+                        "Os01g0358100",
+                        "Os07g0515700",
+                        "Os05g0124000",
+                        "Os12g0555200",
+                        "Os12g0555000",
+                        "Os07g0588700",
+                        "Os11g0664500",
+                        "Os01g0952000",
+                        "Os07g0545400",
+                        "Os09g0561450",
+                        "Os04g0308100",
+                        "Os10g0323900",
+                        "Os05g0440300",
+                        "Os04g0368800",
+                        "Os11g0705200",
+                        "Os04g0368000",
+                        "Os03g0437200",
+                        "Os01g0699500",
+                        "Os05g0545400",
+                        "Os02g0607100",
+                        "Os02g0295700",
+                        "Os04g0593500",
+                        "Os01g0699100",
+                        "Os11g0664800",
+                        "Os06g0527800",
+                        "Os09g0561500",
+                        "Os04g0307900",
+                        "Os04g0393100",
+                        "Os12g0555100",
+                        "Os02g0294700",
+                        "Os05g0440250",
+                        "Os01g0952100",
+                        "Os07g0588600",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1324,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0050789",
+                    "label": "regulation of biological process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 51,
+                    "fold_enrichment": 0.6152604470875591,
+                    "fdr": 0.002405225396024123,
+                    "expected": 82.89172535211267,
+                    "pValue": 9.486967919352689E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545300",
+                        "Os05g0545300",
+                        "Os01g0357900",
+                        "Os12g0427450",
+                        "Os03g0437100",
+                        "Os04g0368300",
+                        "Os01g0699400",
+                        "Os11g0705900",
+                        "Os06g0528300",
+                        "Os01g0699600",
+                        "Os10g0323600",
+                        "Os04g0593400",
+                        "Os09g0561600",
+                        "Os05g0124600",
+                        "Os12g0427100",
+                        "Os07g0515900",
+                        "Os01g0358100",
+                        "Os07g0515700",
+                        "Os05g0124000",
+                        "Os10g0378000",
+                        "Os12g0555200",
+                        "Os12g0555000",
+                        "Os07g0588700",
+                        "Os11g0664500",
+                        "Os01g0952000",
+                        "Os07g0545400",
+                        "Os09g0561450",
+                        "Os04g0308100",
+                        "Os10g0323900",
+                        "Os05g0440300",
+                        "Os04g0368800",
+                        "Os11g0705200",
+                        "Os04g0368000",
+                        "Os03g0437200",
+                        "Os01g0699500",
+                        "Os05g0545400",
+                        "Os02g0607100",
+                        "Os02g0295700",
+                        "Os04g0593500",
+                        "Os01g0699100",
+                        "Os11g0664800",
+                        "Os06g0527800",
+                        "Os09g0561500",
+                        "Os04g0307900",
+                        "Os04g0393100",
+                        "Os10g0378100",
+                        "Os12g0555100",
+                        "Os02g0294700",
+                        "Os05g0440250",
+                        "Os01g0952100",
+                        "Os07g0588600",
+                        "Os12g0555300"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 1480,
+                "term": {
+                    "level": 8,
+                    "id": "GO:0065007",
+                    "label": "biological regulation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 20,
+                    "fold_enrichment": 0.41667717376602714,
+                    "fdr": 1.3778358470903465E-4,
+                    "expected": 47.998789612676056,
+                    "pValue": 3.5165184032468238E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0664800",
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os05g0124600",
+                        "Os11g0705200",
+                        "Os07g0515900",
+                        "Os03g0437200",
+                        "Os07g0515700",
+                        "Os04g0393100",
+                        "Os05g0124000",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0607100",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600",
+                        "Os11g0664500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 857,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0019222",
+                    "label": "regulation of metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 15,
+                    "fold_enrichment": 0.35054876104465177,
+                    "fdr": 4.427768049182332E-5,
+                    "expected": 42.79005281690141,
+                    "pValue": 8.561036444668081E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0664800",
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600",
+                        "Os11g0664500"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 764,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009889",
+                    "label": "regulation of biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 0.39050194911997177,
+                    "fdr": 8.865571246995914E-5,
+                    "expected": 46.09452024647887,
+                    "pValue": 2.1255429903857177E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0545400",
+                        "Os07g0545300",
+                        "Os05g0440300",
+                        "Os05g0124600",
+                        "Os11g0705200",
+                        "Os07g0515900",
+                        "Os03g0437200",
+                        "Os07g0515700",
+                        "Os04g0393100",
+                        "Os05g0124000",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0607100",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os05g0440250",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 823,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0060255",
+                    "label": "regulation of macromolecule metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 0.24127860670100357,
+                    "fdr": 4.844347347991952E-5,
+                    "expected": 29.012103873239436,
+                    "pValue": 1.0115806527129367E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 518,
+                "term": {
+                    "level": 2,
+                    "id": "GO:2001141",
+                    "label": "regulation of RNA biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 0.274686413782681,
+                    "fdr": 4.7276801325205266E-5,
+                    "expected": 32.76463468309859,
+                    "pValue": 1.0237822406076934E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 585,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0051252",
+                    "label": "regulation of RNA metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 0.26737363072024684,
+                    "fdr": 3.222053340549705E-5,
+                    "expected": 33.660761443661976,
+                    "pValue": 5.482225328081478E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os11g0705200",
+                        "Os03g0437200",
+                        "Os04g0393100",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 601,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0019219",
+                    "label": "regulation of nucleobase-containing compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 14,
+                    "fold_enrichment": 0.3596613475427909,
+                    "fdr": 1.275904566117851E-4,
+                    "expected": 38.92550616197183,
+                    "pValue": 3.5524025042724395E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os05g0124600",
+                        "Os11g0705200",
+                        "Os07g0515900",
+                        "Os03g0437200",
+                        "Os07g0515700",
+                        "Os04g0393100",
+                        "Os05g0124000",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0607100",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 695,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0080090",
+                    "label": "regulation of primary metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 14,
+                    "fold_enrichment": 0.36491187816385356,
+                    "fdr": 2.1170910901267787E-4,
+                    "expected": 38.36542693661972,
+                    "pValue": 6.549392390183383E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os05g0124600",
+                        "Os11g0705200",
+                        "Os07g0515900",
+                        "Os03g0437200",
+                        "Os07g0515700",
+                        "Os04g0393100",
+                        "Os05g0124000",
+                        "Os03g0437100",
+                        "Os11g0705900",
+                        "Os02g0607100",
+                        "Os02g0294700",
+                        "Os02g0295700",
+                        "Os07g0588700",
+                        "Os07g0588600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 685,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0051171",
+                    "label": "regulation of nitrogen compound metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.0428675121378945,
+                    "expected": 6.272887323943663,
+                    "pValue": 0.003016971078537045,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 112,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0072594",
+                    "label": "establishment of protein localization to organelle"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.01161180525019177,
+                    "expected": 7.729093309859155,
+                    "pValue": 6.016944715876633E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 138,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0033365",
+                    "label": "protein localization to organelle"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 0,
+                "fold_enrichment": 0,
+                "fdr": 0.022589761166026987,
+                "expected": 7.05699823943662,
+                "pValue": 0.0013627234114076605,
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "-"
+            },
+            "number_in_reference": 126,
+            "term": {
+                "level": 0,
+                "id": "GO:0061024",
+                "label": "membrane organization"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.02238646047825345,
+                    "expected": 6.944982394366197,
+                    "pValue": 0.0013331457516051939,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 124,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0000398",
+                    "label": "mRNA splicing, via spliceosome"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.02272043568791844,
+                    "expected": 7.11300616197183,
+                    "pValue": 0.0013881782052169813,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 127,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0000377",
+                    "label": "RNA splicing, via transesterification reactions with bulged adenosine as nucleophile"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.02243643024181946,
+                    "expected": 7.11300616197183,
+                    "pValue": 0.0013881782052169813,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 127,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0000375",
+                    "label": "RNA splicing, via transesterification reactions"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.01155557149172609,
+                    "expected": 7.785101232394366,
+                    "pValue": 6.077176035865229E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 139,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0008380",
+                    "label": "RNA splicing"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.006125230060675339,
+                    "expected": 8.40118838028169,
+                    "pValue": 2.700217428139941E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 150,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006397",
+                    "label": "mRNA processing"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.15800545925552445,
+                    "fdr": 0.008500923465378642,
+                    "expected": 12.657790492957746,
+                    "pValue": 3.9447440674610865E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os02g0294700",
+                        "Os02g0295700"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 226,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0016071",
+                    "label": "mRNA metabolic process"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 0,
+                "fold_enrichment": 0,
+                "fdr": 0.042825391034598606,
+                "expected": 6.21687940140845,
+                "pValue": 0.002980885686863012,
+                "list_name": "H_0_TAGs.tsv",
+                "plus_minus": "-"
+            },
+            "number_in_reference": 111,
+            "term": {
+                "level": 0,
+                "id": "GO:0016072",
+                "label": "rRNA metabolic process"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.011917121914642748,
+                    "expected": 7.617077464788732,
+                    "pValue": 5.990819214630926E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 136,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006281",
+                    "label": "DNA repair"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.003029930306437019,
+                    "expected": 9.185299295774648,
+                    "pValue": 1.2185334565717324E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 164,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006259",
+                    "label": "DNA metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.00838646439839009,
+                    "expected": 8.009132922535212,
+                    "pValue": 4.0213518383618377E-4,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 143,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006974",
+                    "label": "DNA damage response"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 0.2505911143280598,
+                    "fdr": 0.011485111759617018,
+                    "expected": 15.962257922535212,
+                    "pValue": 6.30659655787168E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os12g0178100",
+                        "Os04g0482100",
+                        "Os12g0178200",
+                        "Os04g0482000"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 285,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0033554",
+                    "label": "cellular response to stress"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 0,
+                    "fold_enrichment": 0,
+                    "fdr": 0.03157676235934098,
+                    "expected": 6.66494278169014,
+                    "pValue": 0.0020269692775137676,
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 119,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0048193",
+                    "label": "Golgi vesicle transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 2,
+                    "fold_enrichment": 0.10886961521874551,
+                    "fdr": 1.0200573853276597E-4,
+                    "expected": 18.370598591549296,
+                    "pValue": 2.5245039698751053E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "Os07g0223400",
+                        "Os07g0223100",
+                        "Os04g0685600"
+                    ]},
+                    "list_name": "H_0_TAGs.tsv",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 328,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0016192",
+                    "label": "vesicle-mediated transport"
+                }
+            }
+        ]}
+    ]
+}}

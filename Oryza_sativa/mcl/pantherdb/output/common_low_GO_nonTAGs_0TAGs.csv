@@ -1,0 +1,11 @@
+GOID,GO_term,fold_enrichment_nonTAGs,FDR_d1,fold_enrichment_allTAGs,FDR_d2
+GO:0007166,cell surface receptor signaling pathway,2.38,4.27e-10,2.07,0.0402
+GO:0043207,response to external biotic stimulus,2.08,5.74e-21,1.91,0.000185
+GO:0051707,response to other organism,2.08,5.36e-21,1.91,0.000182
+GO:0009607,response to biotic stimulus,2.08,5.02e-21,1.91,0.000178
+GO:0098542,defense response to other organism,2.08,4.73e-21,1.91,0.000175
+GO:0044419,biological process involved in interspecies interaction between organisms,2.07,1.04e-20,1.91,0.000243
+GO:0006952,defense response,2.06,7.37e-24,2.2,5.65e-08
+GO:0009605,response to external stimulus,1.96,2.69e-18,1.76,0.00158
+GO:0050896,response to stimulus,1.7,1.17e-39,1.33,0.00539
+GO:0006950,response to stress,1.52,5.24e-14,1.46,0.00223

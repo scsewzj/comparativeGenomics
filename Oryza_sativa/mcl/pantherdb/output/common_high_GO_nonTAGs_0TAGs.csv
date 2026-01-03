@@ -1,0 +1,6 @@
+GOID,GO_term,fold_enrichment_nonTAGs,FDR_d1,fold_enrichment_allTAGs,FDR_d2
+GO:0098754,detoxification,4.36,0.0217,4.96,0.0386
+GO:0009636,response to toxic substance,4.36,0.0214,4.96,0.0382
+GO:0006749,glutathione metabolic process,2.42,0.0375,5.49,3.31E-08
+GO:0006790,sulfur compound metabolic process,2.36,0.00026,3.63,6.33E-09
+GO:0044255,cellular lipid metabolic process,1.7,0.0183,1.9,0.0107

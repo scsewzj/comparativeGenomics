@@ -1,0 +1,122 @@
+polyamine catabolic process (GO:0006598)	4	4	.29	+	14.01	2.59E-05	5.58E-04
+negative regulation of transcription by RNA polymerase II (GO:0000122)	9	4	.64	+	6.23	2.44E-03	3.00E-02
+secondary metabolic process (GO:0019748)	62	27	4.43	+	6.10	2.25E-15	4.84E-13
+secondary metabolite biosynthetic process (GO:0044550)	42	18	3.00	+	6.00	1.44E-10	1.17E-08
+cell surface receptor signaling pathway (GO:0007166)	85	31	6.07	+	5.11	7.62E-15	1.41E-12
+glutathione metabolic process (GO:0006749)	65	23	4.64	+	4.96	4.57E-11	5.91E-09
+detoxification (GO:0098754)	18	6	1.28	+	4.67	1.15E-03	1.55E-02
+response to toxic substance (GO:0009636)	18	6	1.28	+	4.67	1.15E-03	1.54E-02
+response to salt stress (GO:0009651)	26	8	1.86	+	4.31	3.23E-04	5.36E-03
+response to osmotic stress (GO:0006970)	31	8	2.21	+	3.62	1.19E-03	1.56E-02
+cellular modified amino acid metabolic process (GO:0006575)	91	23	6.50	+	3.54	6.95E-08	2.50E-06
+sterol metabolic process (GO:0016125)	60	15	4.28	+	3.50	1.49E-05	3.63E-04
+glucan biosynthetic process (GO:0009250)	40	10	2.86	+	3.50	3.91E-04	6.25E-03
+steroid metabolic process (GO:0008202)	62	15	4.43	+	3.39	2.27E-05	5.15E-04
+glucan metabolic process (GO:0044042)	55	13	3.93	+	3.31	1.02E-04	1.94E-03
+response to reactive oxygen species (GO:0000302)	38	8	2.71	+	2.95	4.71E-03	4.99E-02
+polysaccharide metabolic process (GO:0005976)	105	19	7.49	+	2.54	1.48E-04	2.69E-03
+sulfur compound metabolic process (GO:0006790)	172	31	12.28	+	2.53	1.57E-06	4.41E-05
+polysaccharide biosynthetic process (GO:0000271)	69	12	4.92	+	2.44	3.31E-03	3.89E-02
+response to temperature stimulus (GO:0009266)	70	12	5.00	+	2.40	3.74E-03	4.31E-02
+response to external biotic stimulus (GO:0043207)	287	48	20.48	+	2.34	4.16E-08	1.79E-06
+response to other organism (GO:0051707)	287	48	20.48	+	2.34	4.16E-08	1.74E-06
+response to biotic stimulus (GO:0009607)	287	48	20.48	+	2.34	4.16E-08	1.68E-06
+defense response to other organism (GO:0098542)	287	48	20.48	+	2.34	4.16E-08	1.63E-06
+defense response (GO:0006952)	335	56	23.91	+	2.34	2.56E-09	1.51E-07
+biological process involved in interspecies interaction between organisms (GO:0044419)	288	48	20.56	+	2.34	4.43E-08	1.68E-06
+protein phosphorylation (GO:0006468)	448	70	31.98	+	2.19	6.83E-10	4.65E-08
+cell wall organization or biogenesis (GO:0071554)	104	16	7.42	+	2.16	3.28E-03	3.89E-02
+response to external stimulus (GO:0009605)	312	48	22.27	+	2.16	6.11E-07	1.76E-05
+response to oxygen-containing compound (GO:1901700)	124	19	8.85	+	2.15	1.37E-03	1.75E-02
+phosphorylation (GO:0016310)	468	70	33.40	+	2.10	3.59E-09	2.02E-07
+transmembrane transport (GO:0055085)	423	55	30.19	+	1.82	1.52E-05	3.64E-04
+response to stress (GO:0006950)	752	92	53.67	+	1.71	3.93E-07	1.18E-05
+response to stimulus (GO:0050896)	1206	141	86.08	+	1.64	5.80E-09	2.78E-07
+cellular process (GO:0009987)	4405	260	314.41	-	.83	4.35E-04	6.77E-03
+nitrogen compound metabolic process (GO:0006807)	2851	166	203.49	-	.82	3.47E-03	4.04E-02
+primary metabolic process (GO:0044238)	3237	184	231.04	-	.80	4.78E-04	7.27E-03
+macromolecule metabolic process (GO:0043170)	2513	139	179.37	-	.77	8.42E-04	1.21E-02
+biosynthetic process (GO:0009058)	1466	72	104.64	-	.69	4.61E-04	7.10E-03
+regulation of cellular process (GO:0050794)	1265	61	90.29	-	.68	7.68E-04	1.12E-02
+regulation of biological process (GO:0050789)	1324	63	94.50	-	.67	3.62E-04	5.86E-03
+biological regulation (GO:0065007)	1480	70	105.64	-	.66	1.18E-04	2.18E-03
+organic substance biosynthetic process (GO:1901576)	1425	65	101.71	-	.64	5.58E-05	1.09E-03
+cellular biosynthetic process (GO:0044249)	1368	53	97.64	-	.54	2.70E-07	8.30E-06
+cellular localization (GO:0051641)	457	16	32.62	-	.49	1.26E-03	1.64E-02
+organic cyclic compound metabolic process (GO:1901360)	1144	36	81.65	-	.44	4.76E-09	2.57E-07
+cellular macromolecule localization (GO:0070727)	318	10	22.70	-	.44	2.98E-03	3.64E-02
+protein localization (GO:0008104)	318	10	22.70	-	.44	2.98E-03	3.61E-02
+vesicle-mediated transport (GO:0016192)	328	10	23.41	-	.43	2.31E-03	2.87E-02
+macromolecule biosynthetic process (GO:0009059)	952	28	67.95	-	.41	1.85E-08	8.55E-07
+macromolecule localization (GO:0033036)	367	10	26.20	-	.38	3.18E-04	5.33E-03
+regulation of DNA-templated transcription (GO:0006355)	518	14	36.97	-	.38	1.37E-05	3.47E-04
+regulation of RNA biosynthetic process (GO:2001141)	518	14	36.97	-	.38	1.37E-05	3.41E-04
+cellular component organization or biogenesis (GO:0071840)	914	24	65.24	-	.37	1.87E-09	1.15E-07
+protein modification by small protein conjugation (GO:0032446)	231	6	16.49	-	.36	4.35E-03	4.69E-02
+cellular aromatic compound metabolic process (GO:0006725)	1097	28	78.30	-	.36	1.27E-11	1.83E-09
+regulation of nitrogen compound metabolic process (GO:0051171)	685	17	48.89	-	.35	1.02E-07	3.47E-06
+cellular component organization (GO:0016043)	734	18	52.39	-	.34	2.31E-08	1.03E-06
+regulation of metabolic process (GO:0019222)	857	21	61.17	-	.34	1.28E-09	8.26E-08
+regulation of primary metabolic process (GO:0080090)	695	17	49.61	-	.34	5.46E-08	2.02E-06
+regulation of RNA metabolic process (GO:0051252)	585	14	41.76	-	.34	5.38E-07	1.58E-05
+regulation of cellular biosynthetic process (GO:0031326)	763	18	54.46	-	.33	5.02E-09	2.60E-07
+regulation of biosynthetic process (GO:0009889)	764	18	54.53	-	.33	5.08E-09	2.52E-07
+cellular lipid metabolic process (GO:0044255)	300	7	21.41	-	.33	4.03E-04	6.36E-03
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	601	14	42.90	-	.33	2.12E-07	6.67E-06
+regulation of cellular metabolic process (GO:0031323)	825	19	58.89	-	.32	6.14E-10	4.41E-08
+regulation of macromolecule metabolic process (GO:0060255)	823	17	58.74	-	.29	5.63E-11	6.07E-09
+gene expression (GO:0010467)	792	16	56.53	-	.28	9.89E-11	9.13E-09
+protein modification by small protein conjugation or removal (GO:0070647)	312	6	22.27	-	.27	5.46E-05	1.09E-03
+carbohydrate derivative metabolic process (GO:1901135)	210	4	14.99	-	.27	1.10E-03	1.51E-02
+post-translational protein modification (GO:0043687)	317	6	22.63	-	.27	3.92E-05	8.05E-04
+regulation of gene expression (GO:0010468)	742	14	52.96	-	.26	1.03E-10	8.90E-09
+regulation of macromolecule biosynthetic process (GO:0010556)	743	14	53.03	-	.26	7.16E-11	7.12E-09
+organonitrogen compound biosynthetic process (GO:1901566)	486	9	34.69	-	.26	1.70E-07	5.63E-06
+ribonucleoprotein complex biogenesis (GO:0022613)	204	3	14.56	-	.21	3.33E-04	5.46E-03
+purine-containing compound metabolic process (GO:0072521)	137	2	9.78	-	.20	4.32E-03	4.73E-02
+positive regulation of cellular metabolic process (GO:0031325)	140	2	9.99	-	.20	4.41E-03	4.72E-02
+organophosphate metabolic process (GO:0019637)	282	4	20.13	-	.20	1.98E-05	4.57E-04
+cellular response to stress (GO:0033554)	285	4	20.34	-	.20	1.34E-05	3.48E-04
+DNA damage response (GO:0006974)	143	2	10.21	-	.20	3.04E-03	3.64E-02
+nucleotide metabolic process (GO:0009117)	151	2	10.78	-	.19	2.17E-03	2.73E-02
+positive regulation of cellular process (GO:0048522)	162	2	11.56	-	.17	1.06E-03	1.48E-02
+DNA metabolic process (GO:0006259)	164	2	11.71	-	.17	1.10E-03	1.50E-02
+organelle organization (GO:0006996)	508	5	36.26	-	.14	4.82E-11	5.66E-09
+heterocycle metabolic process (GO:0046483)	1037	10	74.02	-	.14	9.06E-22	3.91E-19
+heterocycle biosynthetic process (GO:0018130)	210	2	14.99	-	.13	4.03E-05	8.15E-04
+cellular nitrogen compound metabolic process (GO:0034641)	1174	11	83.80	-	.13	7.77E-25	1.01E-21
+intracellular signal transduction (GO:0035556)	131	1	9.35	-	.11	1.06E-03	1.48E-02
+nucleobase-containing compound metabolic process (GO:0006139)	963	7	68.74	-	.10	1.62E-22	1.05E-19
+cellular nitrogen compound biosynthetic process (GO:0044271)	422	3	30.12	-	.10	2.20E-10	1.67E-08
+translation (GO:0006412)	191	1	13.63	-	.07	2.53E-05	5.65E-04
+peptide biosynthetic process (GO:0043043)	191	1	13.63	-	.07	2.53E-05	5.55E-04
+amide biosynthetic process (GO:0043604)	225	1	16.06	-	.06	1.61E-06	4.42E-05
+nucleic acid metabolic process (GO:0090304)	783	3	55.89	-	.05	2.57E-21	8.32E-19
+RNA metabolic process (GO:0016070)	628	1	44.82	-	.02	3.17E-19	8.21E-17
+microtubule cytoskeleton organization (GO:0000226)	80	0	5.71	-	 < 0.01	4.13E-03	4.72E-02
+RNA splicing (GO:0008380)	139	0	9.92	-	 < 0.01	7.99E-05	1.54E-03
+RNA modification (GO:0009451)	172	0	12.28	-	 < 0.01	4.39E-06	1.18E-04
+carbohydrate derivative biosynthetic process (GO:1901137)	107	0	7.64	-	 < 0.01	5.47E-04	8.23E-03
+glycerolipid metabolic process (GO:0046486)	83	0	5.92	-	 < 0.01	4.24E-03	4.77E-02
+generation of precursor metabolites and energy (GO:0006091)	131	0	9.35	-	 < 0.01	1.11E-04	2.08E-03
+ncRNA processing (GO:0034470)	159	0	11.35	-	 < 0.01	1.52E-05	3.58E-04
+cellular homeostasis (GO:0019725)	84	0	6.00	-	 < 0.01	4.35E-03	4.73E-02
+tRNA metabolic process (GO:0006399)	105	0	7.49	-	 < 0.01	8.49E-04	1.21E-02
+mRNA processing (GO:0006397)	150	0	10.71	-	 < 0.01	3.61E-05	7.53E-04
+RNA processing (GO:0006396)	344	0	24.55	-	 < 0.01	1.14E-11	1.84E-09
+rRNA processing (GO:0006364)	99	0	7.07	-	 < 0.01	1.25E-03	1.64E-02
+DNA-templated transcription (GO:0006351)	83	0	5.92	-	 < 0.01	4.24E-03	4.73E-02
+phospholipid metabolic process (GO:0006644)	109	0	7.78	-	 < 0.01	5.52E-04	8.21E-03
+membrane organization (GO:0061024)	126	0	8.99	-	 < 0.01	1.67E-04	2.96E-03
+mRNA splicing, via spliceosome (GO:0000398)	124	0	8.85	-	 < 0.01	1.63E-04	2.93E-03
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	127	0	9.06	-	 < 0.01	1.71E-04	2.99E-03
+RNA splicing, via transesterification reactions (GO:0000375)	127	0	9.06	-	 < 0.01	1.71E-04	2.95E-03
+rRNA metabolic process (GO:0016072)	111	0	7.92	-	 < 0.01	5.76E-04	8.47E-03
+mRNA metabolic process (GO:0016071)	226	0	16.13	-	 < 0.01	7.92E-08	2.77E-06
+protein modification by small protein removal (GO:0070646)	81	0	5.78	-	 < 0.01	4.13E-03	4.69E-02
+microtubule-based process (GO:0007017)	92	0	6.57	-	 < 0.01	1.84E-03	2.33E-02
+cytoskeleton organization (GO:0007010)	127	0	9.06	-	 < 0.01	1.71E-04	2.91E-03
+ncRNA metabolic process (GO:0034660)	218	0	15.56	-	 < 0.01	1.83E-07	5.93E-06
+nucleobase-containing compound biosynthetic process (GO:0034654)	171	0	12.21	-	 < 0.01	7.10E-06	1.87E-04
+RNA biosynthetic process (GO:0032774)	83	0	5.92	-	 < 0.01	4.24E-03	4.69E-02
+organophosphate biosynthetic process (GO:0090407)	145	0	10.35	-	 < 0.01	3.27E-05	6.93E-04

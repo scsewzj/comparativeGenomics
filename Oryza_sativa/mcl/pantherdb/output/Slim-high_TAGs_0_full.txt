@@ -1,0 +1,105 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	H_0_TAGs.tsv (Oryza sativa)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	BACKGROUND.txt (Oryza sativa)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	BACKGROUND.txt - REFLIST (27264)	H_0_TAGs.tsv (1527)	H_0_TAGs.tsv (expected)	H_0_TAGs.tsv (over/under)	H_0_TAGs.tsv (fold Enrichment)	H_0_TAGs.tsv (raw P-value)	H_0_TAGs.tsv (FDR)
+L-alpha-amino acid transmembrane transport (GO:1902475)	2	2	.11	+	17.85	3.13E-03	4.41E-02
+L-amino acid transport (GO:0015807)	2	2	.11	+	17.85	3.13E-03	4.36E-02
+long-chain fatty acid metabolic process (GO:0001676)	16	10	.90	+	11.16	1.73E-09	2.49E-07
+jasmonic acid metabolic process (GO:0009694)	16	10	.90	+	11.16	1.73E-09	2.24E-07
+response to abscisic acid (GO:0009737)	30	11	1.68	+	6.55	3.33E-07	2.16E-05
+glutathione metabolic process (GO:0006749)	65	20	3.64	+	5.49	2.05E-10	3.31E-08
+diterpenoid biosynthetic process (GO:0016102)	20	6	1.12	+	5.36	6.00E-04	1.17E-02
+detoxification (GO:0098754)	18	5	1.01	+	4.96	2.54E-03	3.86E-02
+response to toxic substance (GO:0009636)	18	5	1.01	+	4.96	2.54E-03	3.82E-02
+glucan biosynthetic process (GO:0009250)	40	10	2.24	+	4.46	5.33E-05	1.47E-03
+cellular modified amino acid metabolic process (GO:0006575)	91	22	5.10	+	4.32	4.21E-09	4.18E-07
+response to salt stress (GO:0009651)	26	6	1.46	+	4.12	2.67E-03	3.88E-02
+response to lipid (GO:0033993)	50	11	2.80	+	3.93	8.10E-05	2.14E-03
+cellular response to lipid (GO:0071396)	37	8	2.07	+	3.86	8.54E-04	1.49E-02
+response to reactive oxygen species (GO:0000302)	38	8	2.13	+	3.76	1.03E-03	1.75E-02
+sulfur compound metabolic process (GO:0006790)	172	35	9.63	+	3.63	2.45E-11	6.33E-09
+fatty acid metabolic process (GO:0006631)	69	14	3.86	+	3.62	2.39E-05	6.85E-04
+response to oxidative stress (GO:0006979)	54	10	3.02	+	3.31	7.37E-04	1.30E-02
+glucan metabolic process (GO:0044042)	55	10	3.08	+	3.25	8.56E-04	1.48E-02
+organic hydroxy compound metabolic process (GO:1901615)	128	23	7.17	+	3.21	6.50E-07	3.65E-05
+methylation (GO:0032259)	100	17	5.60	+	3.04	3.82E-05	1.07E-03
+sterol metabolic process (GO:0016125)	60	10	3.36	+	2.98	1.71E-03	2.70E-02
+steroid metabolic process (GO:0008202)	62	10	3.47	+	2.88	2.21E-03	3.40E-02
+response to oxygen-containing compound (GO:1901700)	124	19	6.94	+	2.74	6.08E-05	1.64E-03
+lipid metabolic process (GO:0006629)	379	44	21.23	+	2.07	4.73E-06	1.61E-04
+response to chemical (GO:0042221)	225	26	12.60	+	2.06	6.16E-04	1.14E-02
+cellular lipid metabolic process (GO:0044255)	300	32	16.80	+	1.90	5.31E-04	1.07E-02
+nitrogen compound metabolic process (GO:0006807)	2851	125	159.68	-	.78	2.56E-03	3.80E-02
+regulation of biological process (GO:0050789)	1324	49	74.15	-	.66	1.41E-03	2.25E-02
+organic substance biosynthetic process (GO:1901576)	1425	52	79.81	-	.65	7.16E-04	1.29E-02
+macromolecule metabolic process (GO:0043170)	2513	91	140.75	-	.65	2.06E-06	8.87E-05
+biological regulation (GO:0065007)	1480	51	82.89	-	.62	9.49E-05	2.41E-03
+organic cyclic compound metabolic process (GO:1901360)	1144	39	64.07	-	.61	6.08E-04	1.14E-02
+regulation of cellular process (GO:0050794)	1265	43	70.85	-	.61	2.68E-04	6.19E-03
+cellular aromatic compound metabolic process (GO:0006725)	1097	35	61.44	-	.57	2.13E-04	5.00E-03
+transport (GO:0006810)	985	25	55.17	-	.45	3.84E-06	1.34E-04
+establishment of localization (GO:0051234)	1053	25	58.98	-	.42	3.45E-07	2.13E-05
+regulation of metabolic process (GO:0019222)	857	20	48.00	-	.42	3.52E-06	1.38E-04
+localization (GO:0051179)	1136	26	63.62	-	.41	4.95E-08	4.26E-06
+regulation of macromolecule metabolic process (GO:0060255)	823	18	46.09	-	.39	2.13E-06	8.87E-05
+regulation of nitrogen compound metabolic process (GO:0051171)	685	14	38.37	-	.36	6.55E-06	2.12E-04
+regulation of primary metabolic process (GO:0080090)	695	14	38.93	-	.36	3.55E-06	1.28E-04
+macromolecule biosynthetic process (GO:0009059)	952	19	53.32	-	.36	3.64E-08	3.36E-06
+regulation of cellular biosynthetic process (GO:0031326)	763	15	42.73	-	.35	8.49E-07	4.57E-05
+regulation of biosynthetic process (GO:0009889)	764	15	42.79	-	.35	8.56E-07	4.43E-05
+regulation of cellular metabolic process (GO:0031323)	825	16	46.21	-	.35	1.96E-07	1.41E-05
+organelle organization (GO:0006996)	508	9	28.45	-	.32	2.31E-05	6.79E-04
+regulation of gene expression (GO:0010468)	742	13	41.56	-	.31	1.65E-07	1.33E-05
+regulation of macromolecule biosynthetic process (GO:0010556)	743	13	41.61	-	.31	1.65E-07	1.25E-05
+nitrogen compound transport (GO:0071705)	316	5	17.70	-	.28	5.06E-04	1.04E-02
+heterocycle metabolic process (GO:0046483)	1037	16	58.08	-	.28	3.17E-11	6.82E-09
+regulation of RNA metabolic process (GO:0051252)	585	9	32.76	-	.27	1.02E-06	4.73E-05
+cellular nitrogen compound metabolic process (GO:0034641)	1174	18	65.75	-	.27	1.13E-12	3.66E-10
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	601	9	33.66	-	.27	5.48E-07	3.22E-05
+cellular response to stress (GO:0033554)	285	4	15.96	-	.25	6.31E-04	1.15E-02
+regulation of DNA-templated transcription (GO:0006355)	518	7	29.01	-	.24	1.01E-06	5.03E-05
+regulation of RNA biosynthetic process (GO:2001141)	518	7	29.01	-	.24	1.01E-06	4.84E-05
+gene expression (GO:0010467)	792	9	44.36	-	.20	6.07E-11	1.12E-08
+macromolecule localization (GO:0033036)	367	4	20.55	-	.19	1.62E-05	4.99E-04
+nucleobase-containing compound metabolic process (GO:0006139)	963	10	53.94	-	.19	1.10E-13	7.13E-11
+mRNA metabolic process (GO:0016071)	226	2	12.66	-	.16	3.94E-04	8.50E-03
+cellular macromolecule localization (GO:0070727)	318	2	17.81	-	.11	3.53E-06	1.34E-04
+ribosome biogenesis (GO:0042254)	159	1	8.91	-	.11	2.57E-03	3.77E-02
+protein localization (GO:0008104)	318	2	17.81	-	.11	3.53E-06	1.30E-04
+vesicle-mediated transport (GO:0016192)	328	2	18.37	-	.11	2.52E-06	1.02E-04
+translation (GO:0006412)	191	1	10.70	-	.09	3.80E-04	8.47E-03
+peptide biosynthetic process (GO:0043043)	191	1	10.70	-	.09	3.80E-04	8.32E-03
+protein transport (GO:0015031)	194	1	10.87	-	.09	4.00E-04	8.47E-03
+ribonucleoprotein complex biogenesis (GO:0022613)	204	1	11.43	-	.09	1.78E-04	4.34E-03
+cellular localization (GO:0051641)	457	2	25.60	-	.08	1.98E-09	2.32E-07
+establishment of protein localization (GO:0045184)	247	1	13.83	-	.07	1.87E-05	5.62E-04
+intracellular transport (GO:0046907)	268	1	15.01	-	.07	6.00E-06	1.99E-04
+establishment of localization in cell (GO:0051649)	288	1	16.13	-	.06	1.90E-06	8.45E-05
+RNA metabolic process (GO:0016070)	628	2	35.17	-	.06	2.08E-13	8.97E-11
+nucleic acid metabolic process (GO:0090304)	783	2	43.85	-	.05	2.44E-17	3.16E-14
+RNA splicing (GO:0008380)	139	0	7.79	-	 < 0.01	6.08E-04	1.16E-02
+RNA modification (GO:0009451)	172	0	9.63	-	 < 0.01	8.22E-05	2.13E-03
+ncRNA processing (GO:0034470)	159	0	8.91	-	 < 0.01	1.83E-04	4.38E-03
+protein localization to organelle (GO:0033365)	138	0	7.73	-	 < 0.01	6.02E-04	1.16E-02
+mRNA processing (GO:0006397)	150	0	8.40	-	 < 0.01	2.70E-04	6.13E-03
+RNA processing (GO:0006396)	344	0	19.27	-	 < 0.01	4.05E-09	4.36E-07
+regulation of transcription by RNA polymerase II (GO:0006357)	273	0	15.29	-	 < 0.01	2.12E-07	1.44E-05
+establishment of protein localization to organelle (GO:0072594)	112	0	6.27	-	 < 0.01	3.02E-03	4.29E-02
+DNA damage response (GO:0006974)	143	0	8.01	-	 < 0.01	4.02E-04	8.39E-03
+membrane organization (GO:0061024)	126	0	7.06	-	 < 0.01	1.36E-03	2.26E-02
+mRNA splicing, via spliceosome (GO:0000398)	124	0	6.94	-	 < 0.01	1.33E-03	2.24E-02
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	127	0	7.11	-	 < 0.01	1.39E-03	2.27E-02
+RNA splicing, via transesterification reactions (GO:0000375)	127	0	7.11	-	 < 0.01	1.39E-03	2.24E-02
+rRNA metabolic process (GO:0016072)	111	0	6.22	-	 < 0.01	2.98E-03	4.28E-02
+DNA repair (GO:0006281)	136	0	7.62	-	 < 0.01	5.99E-04	1.19E-02
+ncRNA metabolic process (GO:0034660)	218	0	12.21	-	 < 0.01	8.39E-06	2.65E-04
+Golgi vesicle transport (GO:0048193)	119	0	6.66	-	 < 0.01	2.03E-03	3.16E-02
+DNA metabolic process (GO:0006259)	164	0	9.19	-	 < 0.01	1.22E-04	3.03E-03
