@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "pep_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "pep_filtered.fa",
+  "number-of-letters": 9202176,
+  "number-of-sequences": 27715,
+  "last-updated": "2026-01-06T12:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 16737337,
+  "bytes-to-cache": 9451708,
+  "files": [
+    "pep_db.pdb",
+    "pep_db.phr",
+    "pep_db.pin",
+    "pep_db.pot",
+    "pep_db.psq",
+    "pep_db.ptf",
+    "pep_db.pto"
+  ]
+}

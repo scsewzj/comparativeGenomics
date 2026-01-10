@@ -1,0 +1,16 @@
+name: compGen
+channels:
+    - anaconda
+    - conda-forge
+    - bioconda
+    - nodefaults
+dependencies:
+    - perl
+    - perl-text-soundex
+    - gffread
+    - blast
+    - clustalw
+    - paml
+    - r-base
+    - matplotlib
+    - mcscanx
