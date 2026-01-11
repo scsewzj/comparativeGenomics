@@ -711,8 +711,82 @@ grep "^>" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 | grep "iso
 grep "isoform" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 | wc -l
 grep "isoform" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3
 
+# ls Data/Oryza_sativa.IRGSP-1.0.
+#   162  ls Data/Oryza_sativa.IRGSP-1.0.*
+#   163  for file in Data/Oryza_sativa.IRGSP-1.0.*; head -5 $file; done
+#   164  for file in Data/Oryza_sativa.IRGSP-1.0.*; do head -5 $file; done
+#   165  for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "#"  $file|head -5; done
+#   166  conda activate compGen
+#   167  for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "^#"  $file|head -5; done
+#   168  for file in Data/Oryza_sativa.*.fa ; do grep "^>" $file|head -5; echo ""; done
+#   169  blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
+#   170  blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db/pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
+#   171  conda activate compGen
+#   172* makeblastdb -in Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -dbtype prot -out os_dbhistory 
+#   173  blastp -query pep_filtered.fa -db os_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out ob_vs_os_db.blast
+
 python makeBedFile.py Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 pep_filtered.fa
 
+python PyScripts/getTAG.py -o strict_TAGs.tsv
+python PyScripts/getTAG.py -b clusters/moderate.tsv -m clusters/moderate_mcl.tabular -o moderate_TAGs.tsv
+
+python PyScripts/TAGAnalysis.py
+Maximum array size: 16
+
+TAG arrays by size bins:
+  2-2: 624
+  3-5: 213
+  6-9: 20
+  10<=: 4
+
+TAG pairs by spacer range:
+  0-0: 1300
+  1-5: 885
+  6-10: 115
+
+TAG arrays by max spacer range:
+  0-0: 861
+  1-5: 0
+  6-10: 0
+
+(compGen) epic_robinson@698b0d05b5e5:~/workdir/compGEN$ python PyScripts/getTAG.py -b clusters/moderate.tsv -m clusters/moderate_mcl.tabular -o moderate_TAGs.tsv
+TAG arrays written to moderate_TAGs.tsv
+(compGen) epic_robinson@698b0d05b5e5:~/workdir/compGEN$ python PyScripts/TAGAnalysis.py 
+Maximum array size: 21
+
+TAG arrays by size bins:
+  2-2: 854
+  3-5: 364
+  6-9: 43
+  10<=: 12
+
+TAG pairs by spacer range:
+  0-0: 2163
+  1-5: 1997
+  6-10: 352
+
+TAG arrays by max spacer range:
+  0-0: 1273
+  1-5: 0
+  6-10: 0
 ```
 
+```bash
+# Final - right way
+python PyScripts/TAGAnalysis.py -b clusters/strict.tsv -m clusters/strit_mcl.tabular -g gene_pos.bed
+```
+Spacer_range|TAG_pairs|   TAG_arrays|  Max_array|   Arrays_size2|Arrays_3_5|  Arrays_6_9|  Arrays_10plus
+|----|----|----|----|----|----|----|----|
+(0, 0) | 1635|898| 9|   706| 183| 9|   0
+(1, 5) | 3297|733| 17|  445| 242| 36|  10
+(6, 10) |1725|181| 21|  99|  55|  18|  9
 
+
+```bash
+python PyScripts/TAGAnalysis.py -b clusters/strict.tsv -m clusters/strict_mcl.tabular -g gene_pos.bed
+```
+Spacer_range|TAG_pairs|   TAG_arrays|  Max_array|   Arrays_size2|Arrays_3_5|  Arrays_6_9|  Arrays_10plus
+|----|----|----|----|----|----|----|----|
+(0, 0)|903| 557| 9|   459| 94|  4|   0
+(1, 5)|1657|479| 16|  318| 142| 15|  4
+(6, 10) |623| 96|  16|  58|  30|  5|   3
