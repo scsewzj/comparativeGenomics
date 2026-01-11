@@ -1,0 +1,8 @@
+1	Ras Pathway (P04393)	1	0.5%	12.5%
+2	Nicotinic acetylcholine receptor signaling pathway (P00044)	1	0.5%	12.5%
+3	Nicotine pharmacodynamics pathway (P06587)	1	0.5%	12.5%
+4	Dopamine receptor mediated signaling pathway (P05912)	1	0.5%	12.5%
+5	Huntington disease (P00029)	1	0.5%	12.5%
+6	DNA replication (P00017)	1	0.5%	12.5%
+7	Cytoskeletal regulation by Rho GTPase (P00016)	1	0.5%	12.5%
+8	Parkinson disease (P00049)	1	0.5%	12.5%

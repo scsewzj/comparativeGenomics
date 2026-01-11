@@ -720,10 +720,10 @@ grep "isoform" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3
 #   167  for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "^#"  $file|head -5; done
 #   168  for file in Data/Oryza_sativa.*.fa ; do grep "^>" $file|head -5; echo ""; done
 #   169  blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
-#   170  blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db/pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
-#   171  conda activate compGen
-#   172* makeblastdb -in Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -dbtype prot -out os_dbhistory 
-#   173  blastp -query pep_filtered.fa -db os_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out ob_vs_os_db.blast
+#   blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db/pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
+#   conda activate compGen
+#   makeblastdb -in Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -dbtype prot -out os_dbhistory 
+#   blastp -query pep_filtered.fa -db os_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out ob_vs_os_db.blast
 
 python makeBedFile.py Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 pep_filtered.fa
 
@@ -771,6 +771,7 @@ TAG arrays by max spacer range:
   6-10: 0
 ```
 
+# Jan. 11th
 ```bash
 # Final - right way
 python PyScripts/TAGAnalysis.py -b clusters/strict.tsv -m clusters/strit_mcl.tabular -g gene_pos.bed
@@ -790,3 +791,88 @@ Spacer_range|TAG_pairs|   TAG_arrays|  Max_array|   Arrays_size2|Arrays_3_5|  Ar
 (0, 0)|903| 557| 9|   459| 94|  4|   0
 (1, 5)|1657|479| 16|  318| 142| 15|  4
 (6, 10) |623| 96|  16|  58|  30|  5|   3
+
+
+Keep only the top hits
+```bash
+# Sort by query (col1) and descending bit score (col12)
+sort -k1,1 -k12,12nr OB_vs_Os.blastp > OB_vs_Os.sorted.blastp
+# Keep the first occurrence for each query (the best hit)
+awk '!seen[$1]++' OB_vs_Os.sorted.blastp > OB_to_Os_besthit.txt
+
+wc -l OB_to_Os_besthit.txt
+# 21857 OB_to_Os_besthit.txt
+```
+
+Find  *O. Sativa* homologs genes to *O. Brachyantha*
+```bash
+cut -f 1,2 OB_to_Os_besthit.txt > OB_to_Os_IDs.txt
+# OB01G10010.1    Os01t0100100-01
+# OB01G10030.1    Os01t0100500-01
+# OB01G10040.1    Os01t0100600-01
+
+awk '{print $1, NF}' clusters/strict_mcl.tabular > clusters/strict_mcl_IDs.txt
+awk '{print $1, NF}' clusters/moderate_mcl.tabular > clusters/moderate_mcl_IDs.txt
+
+sort -k 1 clusters/moderate_mcl_IDs.txt > clusters/moderate_mcl_IDs.sorted.txt; rm clusters/moderate_mcl_IDs.txt
+sort -k 1 clusters/strict_mcl_IDs.txt > clusters/strict_mcl_IDs.sorted.txt; rm clusters/strict_mcl_IDs.txt
+
+awk '{if(NR>1){print $1 "\t" $2}}' ../Oryza_sativa/data/protein_info.txt > Data/Os_Prot2Gen.txt
+# Os12t0640700-01 Os12g0640700
+# Os12t0640800-01 Os12g0640800
+
+join -1 1 -2 1 OB_to_Os_IDs.txt clusters/strict_mcl_IDs.sorted.txt > strict_OB_OS_joint.tsv
+join -1 1 -2 1 OB_to_Os_IDs.txt clusters/moderate_mcl_IDs.sorted.txt > moderate_OB_OS_joint.tsv
+# OB01G10050.1 Os01t0100800-01 3
+# OB01G10200.1 Os01t0102700-01 2
+
+sort -k 2 strict_OB_OS_joint.tsv | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > strict_OB2GO_for_PANTHER.txt
+# Os01t0101150-00 OB01G10070.1 2 Os01g0101150
+# Os01t0103000-01 OB01G10230.1 2 Os01g0103000
+sort -k 2 moderate_OB_OS_joint.tsv | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > moderate_OB2GO_for_PANTHER.txt
+
+awk '{print $4 "\t" $3}' strict_OB2GO_for_PANTHER.txt > strict_OB2GO_for_PANTHER.clean.txt
+awk '{print $4 "\t" $3}' moderate_OB2GO_for_PANTHER.txt > moderate_OB2GO_for_PANTHER.clean.txt
+# Os01g0100800    3
+# Os01g0102700    2
+
+sort -k 1 moderate_OB2GO_for_PANTHER.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > moderate_OB2GO_for_PANTHER.clean.uniq.txt
+# Os05g0319700    199
+# Os07g0134200    126
+# Os04g0101400    118
+sort -k 1 strict_OB2GO_for_PANTHER.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > strict_OB2GO_for_PANTHER.clean.uniq.txt
+
+awk '{if($2 >= 10){print $1}}' strict_OB2GO_for_PANTHER.clean.uniq.txt > strict_OB2GO_for_PANTHER.Overrep.txt
+awk '{if($2 >= 10){print $1}}' moderate_OB2GO_for_PANTHER.clean.uniq.txt > moderate_OB2GO_for_PANTHER.Overrep.txt
+# Os12g0640700
+# Os12g0636800
+# Os12g0484600
+```
+
+## Analyze Overrepresentation on TAGs
+
+```bash
+python PyScripts/TAGAnalysis.py -b clusters/strict.tsv -m clusters/strict_mcl.tabular -g gene_pos.bed
+Spacer_range    TAG_pairs       TAG_arrays      Max_array       Arrays_size2    Arrrays_6_9       Arrays_10plus
+# TAGs-0 saved to: TAGS/TAGs_0_spacers.txt
+# (0, 0)  903     557     9       459     94      4       0
+# TAGs-0 saved to: TAGS/TAGs_0_spacers.txt
+# (1, 5)  1657    479     16      318     142     15      4
+# TAGs-0 saved to: TAGS/TAGs_0_spacers.txt
+# (6, 10) 623     96      16      58      30      5       3
+# Non-TAGs saved to: TAGS/non_TAGs.txt
+
+awk '{print $1, NF}' TAGS/TAGs_0_spacers.txt | sort > TAGS/TAGs_0_spacers_IDs.txt
+join -1 1 -2 1 OB_to_Os_IDs.txt TAGS/TAGs_0_spacers_IDs.txt > TAGS/temp0.txt
+sort -k 2 TAGS/temp0.txt | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > TAGS/OB2GO_temp.txt
+rm TAGS/temp0.txt
+awk '{print $4 "\t" $3}' TAGS/OB2GO_temp.txt > TAGS/OB2GO_temp.clean.txt
+rm TAGS/OB2GO_temp.txt
+sort -k 1 TAGS/OB2GO_temp.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > TAGS/OB2GO_temp.uniq.txt
+rm TAGS/OB2GO_temp.clean.txt
+awk '{if($2 >= 10){print $1}}' TAGS/OB2GO_temp.uniq.txt > TAGS/TAGs_OB2GO_Overrep.txt
+rm TAGS/TAGs_OB2GO_temp.uniq.txt
+```
+
+GO analyses on [PANTHER](https://pantherdb.org/) : Select "Statistical overrepresentation test"
+Visualisation with `EnrichmentPlot.R`

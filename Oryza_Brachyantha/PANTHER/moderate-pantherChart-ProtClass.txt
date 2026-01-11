@@ -1,0 +1,16 @@
+1	protein modifying enzyme (PC00260)	14	7.3%	13.3%
+2	transporter (PC00227)	16	8.3%	15.2%
+3	scaffold/adaptor protein (PC00226)	3	1.6%	2.9%
+4	membrane traffic protein (PC00150)	3	1.6%	2.9%
+5	chaperone (PC00072)	3	1.6%	2.9%
+6	DNA metabolism protein (PC00009)	1	0.5%	1.0%
+7	protein-binding activity modulator (PC00095)	2	1.0%	1.9%
+8	transmembrane signal receptor (PC00197)	3	1.6%	2.9%
+9	defense/immunity protein (PC00090)	6	3.1%	5.7%
+10	RNA metabolism protein (PC00031)	1	0.5%	1.0%
+11	calcium-binding protein (PC00060)	1	0.5%	1.0%
+12	cytoskeletal protein (PC00085)	3	1.6%	2.9%
+13	gene-specific transcriptional regulator (PC00264)	5	2.6%	4.8%
+14	translational protein (PC00263)	1	0.5%	1.0%
+15	metabolite interconversion enzyme (PC00262)	41	21.2%	39.0%
+16	chromatin/chromatin-binding, or -regulatory protein (PC00077)	2	1.0%	1.9%

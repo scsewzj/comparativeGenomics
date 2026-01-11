@@ -1,0 +1,25 @@
+Analysis Type:	PANTHER Enrichment Test (release 20231017)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	moderate_OB2GO_for_PANTHER.clean.uniq.txt (Oryza sativa)	There are duplicate IDs in the file.   For duplicates, the first id/value pair in the file will be used.
+Correction:	FDR
+PANTHER GO-Slim Biological Process	number	overUnder	pvalue	fdr
+nucleic acid metabolic process (GO:0090304)	119	-	4.36E-08	4.62E-05
+RNA metabolic process (GO:0016070)	98	-	5.29E-07	2.80E-04
+cellular nitrogen compound metabolic process (GO:0034641)	198	-	6.38E-07	2.25E-04
+nucleobase-containing compound metabolic process (GO:0006139)	157	-	6.43E-07	1.70E-04
+heterocycle metabolic process (GO:0046483)	172	-	2.58E-06	5.46E-04
+gene expression (GO:0010467)	130	-	1.14E-05	2.02E-03
+defense response (GO:0006952)	35	+	2.01E-05	3.04E-03
+ncRNA metabolic process (GO:0034660)	40	-	2.90E-05	3.83E-03
+cellular aromatic compound metabolic process (GO:0006725)	176	-	5.24E-05	6.17E-03
+organic cyclic compound metabolic process (GO:1901360)	184	-	5.89E-05	6.24E-03
+macromolecule biosynthetic process (GO:0009059)	149	-	7.65E-05	7.37E-03
+RNA processing (GO:0006396)	53	-	1.04E-04	9.16E-03
+biological process involved in interspecies interaction between organisms (GO:0044419)	32	+	2.07E-04	1.69E-02
+response to biotic stimulus (GO:0009607)	32	+	2.07E-04	1.57E-02
+defense response to other organism (GO:0098542)	32	+	2.07E-04	1.46E-02
+response to external biotic stimulus (GO:0043207)	32	+	2.07E-04	1.37E-02
+response to other organism (GO:0051707)	32	+	2.07E-04	1.29E-02
+cellular nitrogen compound biosynthetic process (GO:0044271)	91	-	5.47E-04	3.22E-02
+cellular biosynthetic process (GO:0044249)	228	-	8.09E-04	4.51E-02
+ncRNA processing (GO:0034470)	24	-	9.04E-04	4.79E-02

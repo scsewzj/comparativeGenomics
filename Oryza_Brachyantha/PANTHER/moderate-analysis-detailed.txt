@@ -1,0 +1,15 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	moderate_OB2GO_for_PANTHER.Overrep.txt (Oryza sativa)
+Reference List:	Oryza sativa (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Molecular Function	Oryza sativa - REFLIST (43658)	moderate_OB2GO_for_PANTHER.Overrep.txt (193)	moderate_OB2GO_for_PANTHER.Overrep.txt (expected)	moderate_OB2GO_for_PANTHER.Overrep.txt (over/under)	moderate_OB2GO_for_PANTHER.Overrep.txt (fold Enrichment)	moderate_OB2GO_for_PANTHER.Overrep.txt (raw P-value)	moderate_OB2GO_for_PANTHER.Overrep.txt (FDR)
+catalytic activity (GO:0003824)	4878	44	21.56	+	2.04	4.95E-06	8.01E-04
+molecular_function (GO:0003674)	8256	69	36.50	+	1.89	3.19E-08	7.74E-06
+Unclassified (UNCLASSIFIED)	35402	124	156.50	-	.79	3.19E-08	1.55E-05

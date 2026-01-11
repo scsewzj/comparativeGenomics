@@ -1,0 +1,14 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	strict_OB2GO_for_PANTHER.Overrep.txt (Oryza sativa)
+Reference List:	Oryza sativa (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Oryza sativa - REFLIST (43658)	strict_OB2GO_for_PANTHER.Overrep.txt (43)	strict_OB2GO_for_PANTHER.Overrep.txt (expected)	strict_OB2GO_for_PANTHER.Overrep.txt (over/under)	strict_OB2GO_for_PANTHER.Overrep.txt (fold Enrichment)	strict_OB2GO_for_PANTHER.Overrep.txt (raw P-value)	strict_OB2GO_for_PANTHER.Overrep.txt (FDR)
+protein phosphorylation (GO:0006468)	482	6	.47	+	12.64	7.57E-06	1.05E-02
+phosphorylation (GO:0016310)	508	6	.50	+	11.99	1.02E-05	7.05E-03

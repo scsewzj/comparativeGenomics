@@ -1,0 +1,7 @@
+Analysis Type:	PANTHER Enrichment Test (release 20231017)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	strict_OB2GO_for_PANTHER.clean.uniq.txt (Oryza sativa)	There are duplicate IDs in the file.   For duplicates, the first id/value pair in the file will be used.
+Correction:	FDR
+PANTHER GO-Slim Biological Process	number	overUnder	pvalue	fdr
+nucleic acid metabolic process (GO:0090304)	94	-	7.21E-06	7.44E-03
+RNA metabolic process (GO:0016070)	81	-	1.39E-05	7.17E-03

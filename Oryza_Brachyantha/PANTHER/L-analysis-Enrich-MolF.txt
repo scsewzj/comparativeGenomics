@@ -1,0 +1,9 @@
+Analysis Type:	PANTHER Enrichment Test (release 20231017)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	moderate_OB2GO_for_PANTHER.clean.uniq.txt (Oryza sativa)	There are duplicate IDs in the file.   For duplicates, the first id/value pair in the file will be used.
+Correction:	FDR
+PANTHER GO-Slim Molecular Function	number	overUnder	pvalue	fdr
+catalytic activity, acting on a nucleic acid (GO:0140640)	53	-	1.76E-04	2.55E-02
+hydrolase activity, acting on glycosyl bonds (GO:0016798)	16	+	1.17E-04	2.55E-02
+hydrolase activity, hydrolyzing O-glycosyl compounds (GO:0004553)	13	+	1.46E-05	6.35E-03
+oxidoreductase activity (GO:0016491)	93	+	4.27E-04	4.65E-02

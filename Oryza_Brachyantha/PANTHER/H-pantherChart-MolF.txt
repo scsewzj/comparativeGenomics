@@ -1,0 +1,5 @@
+1	binding (GO:0005488)	3	7.0%	12.0%
+2	ATP-dependent activity (GO:0140657)	1	2.3%	4.0%
+3	catalytic activity (GO:0003824)	16	37.2%	64.0%
+4	antioxidant activity (GO:0016209)	1	2.3%	4.0%
+5	transporter activity (GO:0005215)	4	9.3%	16.0%

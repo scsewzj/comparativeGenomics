@@ -1,0 +1,9 @@
+1	cellular process (GO:0009987)	41	21.2%	33.9%
+2	localization (GO:0051179)	10	5.2%	8.3%
+3	biological process involved in interspecies interaction between organisms (GO:0044419)	5	2.6%	4.1%
+4	biological regulation (GO:0065007)	14	7.3%	11.6%
+5	response to stimulus (GO:0050896)	10	5.2%	8.3%
+6	homeostatic process (GO:0042592)	3	1.6%	2.5%
+7	developmental process (GO:0032502)	3	1.6%	2.5%
+8	multicellular organismal process (GO:0032501)	1	0.5%	0.8%
+9	metabolic process (GO:0008152)	34	17.6%	28.1%
