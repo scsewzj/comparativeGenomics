@@ -1,0 +1,34 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	TAGs_OB2GO_Overrep.txt (Oryza sativa)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	Oryza sativa (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Molecular Function	Oryza sativa - REFLIST (43658)	TAGs_OB2GO_Overrep.txt (499)	TAGs_OB2GO_Overrep.txt (expected)	TAGs_OB2GO_Overrep.txt (over/under)	TAGs_OB2GO_Overrep.txt (fold Enrichment)	TAGs_OB2GO_Overrep.txt (raw P-value)	TAGs_OB2GO_Overrep.txt (FDR)
+glutathione transferase activity (GO:0004364)	67	9	.77	+	11.75	7.36E-08	5.95E-06
+oxidoreductase activity, acting on peroxide as acceptor (GO:0016684)	88	10	1.01	+	9.94	7.08E-08	6.87E-06
+glucosidase activity (GO:0015926)	52	5	.59	+	8.41	3.19E-04	9.11E-03
+antioxidant activity (GO:0016209)	104	10	1.19	+	8.41	3.48E-07	1.87E-05
+oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0016616)	170	13	1.94	+	6.69	9.49E-08	6.58E-06
+transferase activity, transferring alkyl or aryl (other than methyl) groups (GO:0016765)	132	10	1.51	+	6.63	3.13E-06	1.38E-04
+oxidoreductase activity, acting on CH-OH group of donors (GO:0016614)	182	13	2.08	+	6.25	2.10E-07	1.27E-05
+hydrolase activity, hydrolyzing O-glycosyl compounds (GO:0004553)	165	11	1.89	+	5.83	3.53E-06	1.43E-04
+exopeptidase activity (GO:0008238)	77	5	.88	+	5.68	1.92E-03	4.24E-02
+hydrolase activity, acting on glycosyl bonds (GO:0016798)	190	11	2.17	+	5.07	1.35E-05	4.37E-04
+monooxygenase activity (GO:0004497)	172	8	1.97	+	4.07	8.67E-04	2.21E-02
+oxidoreductase activity (GO:0016491)	914	42	10.45	+	4.02	3.54E-14	4.29E-12
+peptidase activity (GO:0008233)	305	11	3.49	+	3.16	8.60E-04	2.32E-02
+transmembrane transporter activity (GO:0022857)	732	24	8.37	+	2.87	5.13E-06	1.91E-04
+transporter activity (GO:0005215)	757	24	8.65	+	2.77	8.95E-06	3.10E-04
+protein serine/threonine kinase activity (GO:0004674)	474	14	5.42	+	2.58	1.27E-03	3.08E-02
+protein kinase activity (GO:0004672)	537	15	6.14	+	2.44	1.50E-03	3.46E-02
+catalytic activity (GO:0003824)	4878	130	55.75	+	2.33	1.33E-20	6.44E-18
+hydrolase activity (GO:0016787)	1341	33	15.33	+	2.15	6.15E-05	1.86E-03
+transferase activity (GO:0016740)	2134	51	24.39	+	2.09	9.38E-07	4.55E-05
+molecular_function (GO:0003674)	8256	171	94.36	+	1.81	3.03E-16	4.91E-14
+Unclassified (UNCLASSIFIED)	35402	328	404.64	-	.81	3.03E-16	7.36E-14

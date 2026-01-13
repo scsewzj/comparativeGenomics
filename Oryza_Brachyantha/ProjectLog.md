@@ -711,19 +711,86 @@ grep "^>" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 | grep "iso
 grep "isoform" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 | wc -l
 grep "isoform" Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3
 
-# ls Data/Oryza_sativa.IRGSP-1.0.
-#   162  ls Data/Oryza_sativa.IRGSP-1.0.*
-#   163  for file in Data/Oryza_sativa.IRGSP-1.0.*; head -5 $file; done
-#   164  for file in Data/Oryza_sativa.IRGSP-1.0.*; do head -5 $file; done
-#   165  for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "#"  $file|head -5; done
-#   166  conda activate compGen
-#   167  for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "^#"  $file|head -5; done
-#   168  for file in Data/Oryza_sativa.*.fa ; do grep "^>" $file|head -5; echo ""; done
-#   169  blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
-#   blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db/pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
-#   conda activate compGen
-#   makeblastdb -in Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -dbtype prot -out os_dbhistory 
-#   blastp -query pep_filtered.fa -db os_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out ob_vs_os_db.blast
+
+cut -f 1,2 append_all_vs_all.tsv | sort -d -k 1 | uniq -c | sort -k 1 -n | head -5
+      # 1 OB01G10010.1    OB04G17220.1
+      # 1 OB01G10010.1    OB06G31350.1
+      # 1 OB01G10010.1    OB08G22190.1
+      # 1 OB01G10010.1    OB08G29380.1
+      # 1 OB01G10010.1    OB09G23820.1
+cut -f 1,2 append_all_vs_all.tsv | sort -d -k 1 | uniq -c | sort -k 1 -n | tail -5
+      # 1 OB12G27120.1    OB05G17990.1
+      # 1 OB12G27120.1    OB05G18310.1
+      # 1 OB12G27120.1    OB07G18120.1
+      # 1 OB12G27120.1    OB10G11220.1
+      # 1 OB12G27120.1    OB12G15400.1
+
+ls Data/Oryza_sativa.IRGSP-1.0.*
+# Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3.gz
+# Data/Oryza_sativa.IRGSP-1.0.cds.all.fa.gz
+# Data/Oryza_sativa.IRGSP-1.0.pep.all.fa.gz
+
+for file in Data/*; do gunzip $file; done
+
+ls Data/Oryza_sativa.IRGSP-1.0.*
+# Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3  Data/Oryza_sativa.IRGSP-1.0.pep.all.fa
+# Data/Oryza_sativa.IRGSP-1.0.cds.all.fa
+for file in Data/Oryza_sativa.IRGSP-1.0.*; do head -5 $file; done
+# ##gff-version 3
+# ##sequence-region   1 1 43270923
+# ##sequence-region   10 1 23207287
+# ##sequence-region   11 1 29021106
+# ##sequence-region   12 1 27531856
+# >BAC19866 cds chromosome:IRGSP-1.0:Mt:84886:90873:-1 gene:BAC19866 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:nad7 description:NADH dehydrogenase subunit 7
+# ATGACGACTAGGAACGGGCAAATCAAGAATTTCACTTCGAATTCCGGACCTCAACATCCT
+# GCTGCTCATGGTGTTTCACGATCAGTATTGGAAATGAACGGAGAAGTGGTGGAACGTGCG
+# GAACCACATATTGGATCACTCCAACTAGAGGGACTGAGAAATTAATCGAGTACAAAACTT
+# ATCTTCAAGCTTTACCTTATTTTGATCGTTCAGACTATGTTTCTACGATGGCCCAAGAAC
+# >BAC19866 pep chromosome:IRGSP-1.0:Mt:84886:90873:-1 gene:BAC19866 transcript:BAC19866 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:nad7 description:NADH dehydrogenase subunit 7
+# MTTRNGQIKNFTSNSGPQHPAAHGVSRSVLEMNGEVVERAEPHIGSLQLEGLRN*SSTKL
+# IFKLYLILIVQTMFLRWPKNTLILQP*RDF*IVRYHYELNIYECYSVK*LEFQIIHLLQL
+# LMLWMWEHQLRSFGLLRSGRNCWNSMKESREPGCMPVSYDLVEWHKICLLAYVEILIPPH
+# NNLLLVSTN*KRCQPATVSGNND*WILVLSLHSKQRIGDSVV*C*EVLGYAGIREEQHLT
+for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "#"  $file|head -5; done
+# 1       RAP-DB  chromosome      1       43270923        .       .       .    ID=chromosome:1;Alias=Chr1
+# 1       ensembl gene    2983    10815   .       +       .       ID=gene:Os01g0100100;biotype=protein_coding;description=RabGAP/TBC domain containing protein. (Os01t0100100-01);gene_id=Os01g0100100;logic_name=irgspv1.0-20170804-genes
+# 1       ensembl mRNA    2983    10815   .       +       .       ID=transcript:Os01t0100100-01;Parent=gene:Os01g0100100;biotype=protein_coding;transcript_id=Os01t0100100-01
+# 1       ensembl exon    2983    3268    .       +       .       Parent=transcript:Os01t0100100-01;Name=Os01t0100100-01.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=Os01t0100100-01.exon1;rank=1;version=1
+# 1       ensembl five_prime_UTR  2983    3268    .       +       .       Parent=transcript:Os01t0100100-01
+for file in Data/Oryza_sativa.IRGSP-1.0.41.chr.gff3; do grep -v "^#"  $file|head -5; done
+# 1       RAP-DB  chromosome      1       43270923        .       .       .    ID=chromosome:1;Alias=Chr1
+# 1       ensembl gene    2983    10815   .       +       .       ID=gene:Os01g0100100;biotype=protein_coding;description=RabGAP/TBC domain containing protein. (Os01t0100100-01);gene_id=Os01g0100100;logic_name=irgspv1.0-20170804-genes
+# 1       ensembl mRNA    2983    10815   .       +       .       ID=transcript:Os01t0100100-01;Parent=gene:Os01g0100100;biotype=protein_coding;transcript_id=Os01t0100100-01
+# 1       ensembl exon    2983    3268    .       +       .       Parent=transcript:Os01t0100100-01;Name=Os01t0100100-01.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=Os01t0100100-01.exon1;rank=1;version=1
+# 1       ensembl five_prime_UTR  2983    3268    .       +       .       Parent=transcript:Os01t0100100-01
+for file in Data/Oryza_sativa.*.fa ; do grep "^>" $file|head -5; echo ""; done
+# >BAC19866 cds chromosome:IRGSP-1.0:Mt:84886:90873:-1 gene:BAC19866 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:nad7 description:NADH dehydrogenase subunit 7
+# >BAC19897 cds chromosome:IRGSP-1.0:Mt:338572:340147:1 gene:BAC19897 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:cox1 description:Cytochrome c oxidase subunit1
+# >BAC19886 cds chromosome:IRGSP-1.0:Mt:294692:297681:1 gene:BAC19886 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS description:Ribosomal protein L2
+# >BAC19869 cds chromosome:IRGSP-1.0:Mt:170836:174298:1 gene:BAC19869 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:RPS3 description:Ribosomal protein S3
+# >Os08t0254300-00 cds chromosome:IRGSP-1.0:8:9399521:9402233:1 gene:Os08g0254300 gene_biotype:protein_coding transcript_biotype:protein_coding description:Similar to OSIGBa0112M24.2 protein. (Os08t0254300-00)
+# 
+# >BAC19866 pep chromosome:IRGSP-1.0:Mt:84886:90873:-1 gene:BAC19866 transcript:BAC19866 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:nad7 description:NADH dehydrogenase subunit 7
+# >BAC19897 pep chromosome:IRGSP-1.0:Mt:338572:340147:1 gene:BAC19897 transcript:BAC19897 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:cox1 description:Cytochrome c oxidase subunit1
+# >BAC19886 pep chromosome:IRGSP-1.0:Mt:294692:297681:1 gene:BAC19886 transcript:BAC19886 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS description:Ribosomal protein L2
+# >BAC19869 pep chromosome:IRGSP-1.0:Mt:170836:174298:1 gene:BAC19869 transcript:BAC19869 gene_biotype:nontranslating_CDS transcript_biotype:nontranslating_CDS gene_symbol:RPS3 description:Ribosomal protein S3
+# >Os08t0254300-00 pep chromosome:IRGSP-1.0:8:9399521:9402233:1 gene:Os08g0254300 transcript:Os08t0254300-00 gene_biotype:protein_coding transcript_biotype:protein_coding description:Similar to OSIGBa0112M24.2 protein. (Os08t0254300-00)
+# blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
+# # BLAST Database error: No alias or index file found for protein database [pep_db] in search path [/home/epic_robinson/workdir/compGEN::]. Please verify the spelling of the BLAST database and its molecule type.
+# blastp -query Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -db pep_db/pep_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out interspecie.blast
+
+makeblastdb -in Data/Oryza_sativa.IRGSP-1.0.pep.all.fa -dbtype prot -out os_db
+# Building a new DB, current time: 01/09/2026 18:53:50
+# New DB name:   /home/epic_robinson/workdir/compGEN/os_db
+# New DB title:  Data/Oryza_sativa.IRGSP-1.0.pep.all.fa
+# Sequence type: Protein
+# Keep MBits: T
+# Maximum file size: 3000000000B
+# Adding sequences from FASTA; added 42377 sequences in 0.839024 seconds.
+blastp -query pep_filtered.fa -db os_db -outfmt 6 -evalue 1e-3 -num_threads 4 -out ob_vs_os_db.blast
+mkdir -p os_db; mv -i os_db.* os_db
+
+# ------------------------------------------------------
 
 python makeBedFile.py Data/Oryza_brachyantha.Oryza_brachyantha.v1.4b.41.chr.gff3 pep_filtered.fa
 
@@ -862,17 +929,64 @@ Spacer_range    TAG_pairs       TAG_arrays      Max_array       Arrays_size2    
 # (6, 10) 623     96      16      58      30      5       3
 # Non-TAGs saved to: TAGS/non_TAGs.txt
 
-awk '{print $1, NF}' TAGS/TAGs_0_spacers.txt | sort > TAGS/TAGs_0_spacers_IDs.txt
+awk '{print $1, NF}' TAGS/TAGs_0_spacers.txt | sort > TAGS/TAGs_0_spacers_IDs.txt;
+join -1 1 -2 1 OB_to_Os_IDs.txt TAGS/TAGs_0_spacers_IDs.txt > TAGS/temp0.txt;
+sort -k 2 TAGS/temp0.txt | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > TAGS/OB2GO_temp.txt;
+rm TAGS/temp0.txt;
+awk '{print $4 "\t" $3}' TAGS/OB2GO_temp.txt > TAGS/OB2GO_temp.clean.txt;
+rm TAGS/OB2GO_temp.txt;
+sort -k 1 TAGS/OB2GO_temp.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > TAGS/OB2GO_temp.uniq.txt;
+rm TAGS/OB2GO_temp.clean.txt;
+awk '{print $1}' TAGS/OB2GO_temp.uniq.txt > TAGS/TAGs_OB2GO_Overrep.txt;
+rm TAGS/OB2GO_temp.uniq.txt;
+```
+
+GO analyses on [PANTHER](https://pantherdb.org/) : Select "Statistical overrepresentation test"
+Visualization with `EnrichmentPlot.R`
+
+# Jan 12th
+
+## Rerun for statistics & plots
+```bash
+python PyScripts/mcl_cluster_size_plot.py -i clusters/strict_mcl.tabular
+# Cluster and gene counts per category:
+#   size_2: 1906 clusters, 3812 unique genes
+#   size_3_9: 987 clusters, 3976 unique genes
+#   size_10_19: 39 clusters, 500 unique genes
+#   size_20_plus: 5 clusters, 117 unique genes
+# Plot saved to: plots/cluster_distribution_strict_mcl.png
+
+python PyScripts/mcl_cluster_size_plot.py -i clusters/moderate_mcl.tabular
+# Cluster and gene counts per category:
+#   size_2: 1722 clusters, 3444 unique genes
+#   size_3_9: 1428 clusters, 6141 unique genes
+#   size_10_19: 143 clusters, 1894 unique genes
+#   size_20_plus: 69 clusters, 2826 unique genes
+# Plot saved to: plots/cluster_distribution_moderate_mcl.png
+```
+
+```bash
+# === For the non-TAGs & singletons
+## non-TAGs
+awk '{print $1, NF}' TAGS/non_TAGs.txt | sort > TAGS/non_TAGs_0_spacers_IDs.txt
 join -1 1 -2 1 OB_to_Os_IDs.txt TAGS/TAGs_0_spacers_IDs.txt > TAGS/temp0.txt
-sort -k 2 TAGS/temp0.txt | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > TAGS/OB2GO_temp.txt
+sort  -k 2 TAGS/temp0.txt | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > TAGS/OB2GO_temp.txt
 rm TAGS/temp0.txt
 awk '{print $4 "\t" $3}' TAGS/OB2GO_temp.txt > TAGS/OB2GO_temp.clean.txt
 rm TAGS/OB2GO_temp.txt
 sort -k 1 TAGS/OB2GO_temp.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > TAGS/OB2GO_temp.uniq.txt
-rm TAGS/OB2GO_temp.clean.txt
-awk '{if($2 >= 10){print $1}}' TAGS/OB2GO_temp.uniq.txt > TAGS/TAGs_OB2GO_Overrep.txt
-rm TAGS/TAGs_OB2GO_temp.uniq.txt
-```
+rm TAGS/OB2GO_temp.uniq.txt
+awk '{print $1}' TAGS/OB2GO_temp.uniq.txt > TAGS/non-TAGs_OB2GO_Overrep.txt
 
-GO analyses on [PANTHER](https://pantherdb.org/) : Select "Statistical overrepresentation test"
-Visualisation with `EnrichmentPlot.R`
+## singletons
+awk '{print $1, NF}' strict.singleton.tsv | sort > TAGS/strict.singleton_IDs.txt;
+join -1 1 -2 1 OB_to_Os_IDs.txt TAGS/strict.singleton_IDs.txt > TAGS/temp0.txt;
+sort -k 2 TAGS/temp0.txt | join -1 2 -2 1 - Data/Os_Prot2Gen.txt > TAGS/OB2GO_temp.txt;
+rm TAGS/temp0.txt;
+awk '{print $4 "\t" $3}' TAGS/OB2GO_temp.txt > TAGS/OB2GO_temp.clean.txt;
+rm TAGS/OB2GO_temp.txt;
+sort -k 1 TAGS/OB2GO_temp.clean.txt | uniq -c | sort -nr -k 1 | awk '{print $2 "\t" $3}'| sort -k 2 -nr > TAGS/OB2GO_temp.uniq.txt;
+rm TAGS/OB2GO_temp.clean.txt;
+awk '{print $1}' TAGS/OB2GO_temp.uniq.txt > TAGS/strict.singleton_OB2GO_Overrep.txt;
+rm TAGS/OB2GO_temp.uniq.txt;
+```

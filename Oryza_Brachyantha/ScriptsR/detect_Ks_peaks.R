@@ -13,8 +13,8 @@ args <- commandArgs(trailingOnly = TRUE)
 #   stop("Usage: KaKs_all_ks_input_<stringency>.tsv <input.tsv> [output.pdf]")
 # }
 
-input_file  <- ifelse(length(args) >= 1, args[1], "./KaKs_all_ks_input_moderate.tsv")
-output_file <- ifelse(length(args) >= 2, args[2], "dS_evolution_moderate.png")
+input_file  <- ifelse(length(args) >= 1, args[1], "../KaKs_all_ks_input_strict.tsv")
+output_file <- ifelse(length(args) >= 2, args[2], "dS_evolution_strict.png")
 
 plot_dir <- "plots"
 if (!dir.exists(plot_dir)) dir.create(plot_dir, recursive = TRUE)
@@ -45,10 +45,10 @@ breaks <- seq(
 p <- ggplot(data, aes(x = data$dS)) +
   geom_histogram(
     breaks = breaks,
-    fill = "steelblue", # steelblue # darkgreen 
+    fill = "darkgreen", # steelblue # darkgreen 
   ) +
   labs(
-    title = "(L) O. brachyantha",
+    title = "(H) O. brachyantha",
     x = "dS",
     y = "Number of gene pairs"
   ) +

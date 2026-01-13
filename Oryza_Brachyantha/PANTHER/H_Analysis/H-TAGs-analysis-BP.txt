@@ -1,0 +1,23 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	PANTHER version 19.0 Released 2024-06-20
+Analyzed List:	TAGs_OB2GO_Overrep.txt (Oryza sativa)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	Oryza sativa (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Oryza sativa - REFLIST (43658)	TAGs_OB2GO_Overrep.txt (499)	TAGs_OB2GO_Overrep.txt (expected)	TAGs_OB2GO_Overrep.txt (over/under)	TAGs_OB2GO_Overrep.txt (fold Enrichment)	TAGs_OB2GO_Overrep.txt (raw P-value)	TAGs_OB2GO_Overrep.txt (FDR)
+glutathione metabolic process (GO:0006749)	67	9	.77	+	11.75	7.36E-08	5.09E-05
+secondary metabolite biosynthetic process (GO:0044550)	45	5	.51	+	9.72	1.60E-04	2.21E-02
+cellular modified amino acid metabolic process (GO:0006575)	100	10	1.14	+	8.75	2.40E-07	1.11E-04
+secondary metabolic process (GO:0019748)	66	6	.75	+	7.95	1.10E-04	1.90E-02
+sulfur compound metabolic process (GO:0006790)	184	14	2.10	+	6.66	3.25E-08	4.50E-05
+amide metabolic process (GO:0043603)	373	15	4.26	+	3.52	3.14E-05	7.24E-03
+peptide metabolic process (GO:0006518)	312	12	3.57	+	3.37	2.86E-04	3.60E-02
+transmembrane transport (GO:0055085)	466	16	5.33	+	3.00	1.12E-04	1.72E-02
+metabolic process (GO:0008152)	4390	80	50.18	+	1.59	3.35E-05	6.62E-03
+biological_process (GO:0008150)	7716	133	88.19	+	1.51	6.03E-07	1.67E-04
+Unclassified (UNCLASSIFIED)	35942	366	410.81	-	.89	6.03E-07	2.08E-04
