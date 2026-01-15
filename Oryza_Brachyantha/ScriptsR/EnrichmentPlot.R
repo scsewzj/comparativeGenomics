@@ -57,7 +57,7 @@ read_panther_ora <- function(file_path) {
       !grepl("biological_process", GO_term, ignore.case = TRUE),
       !grepl("molecular_function", GO_term, ignore.case = TRUE)
     ) %>%
-    arrange(FDR) %>%      # sort by lowest FDR
+    arrange(FoldEnrichment) %>%      # sort by lowest FDR
     slice_head(n = 15)    # keep top 15
   
   return(data_clean)
@@ -99,11 +99,11 @@ p <- ggplot(df, aes(x = FoldEnrichment, y = GO_term)) +
     title = "(H) Singletons"
   ) +
   theme_minimal() +
-  theme(axis.text.y = element_text(size = 10))
+  theme(axis.text.y = element_text(size = 5))
 
 plot(p)
 
-ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
+# ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
 message("Plot saved to: ", file.path(PLOT_DIR, OUTPUT_FILE))
 
 # ------------------------
@@ -120,12 +120,12 @@ p <- ggplot(df, aes(x = FoldEnrichment, y = GO_term)) +
        color = "FDR", size = "Genes in list",
        title = "(H) non-TAGs") +
   theme_minimal() +
-  theme(axis.text.y = element_text(size = 10))
+  theme(axis.text.y = element_text(size = 5))
 
 
 plot(p)
 
-ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
+# ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
 message("Plot saved to: ", file.path(PLOT_DIR, OUTPUT_FILE))
 
 
@@ -143,10 +143,10 @@ p <- ggplot(df, aes(x = FoldEnrichment, y = GO_term)) +
        color = "FDR", size = "Genes in list",
        title = "(H) TAGs: 0 spacers") +
   theme_minimal() +
-  theme(axis.text.y = element_text(size = 10))
+  theme(axis.text.y = element_text(size = 5))
 
 
 plot(p)
 
-ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
+# ggsave(file.path(PLOT_DIR, OUTPUT_FILE), plot = p)
 message("Plot saved to: ", file.path(PLOT_DIR, OUTPUT_FILE))

@@ -88,14 +88,14 @@ BEGIN {
     len1 = lengths[g1]
     len2 = lengths[g2]
 
-    # Keep best hit based on column 4
+    # Keep best hit based on column 12
     if (pair in maxlen) {
-        if ($4 > maxlen[pair]) {
-            maxlen[pair] = $4
+        if ($12 > maxlen[pair]) {
+            maxlen[pair] = $12
             best[pair] = $0 FS len1 FS len2
         }
     } else {
-        maxlen[pair] = $4
+        maxlen[pair] = $12
         best[pair] = $0 FS len1 FS len2
     }
 }

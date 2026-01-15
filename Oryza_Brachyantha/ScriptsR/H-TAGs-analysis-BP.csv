@@ -1,0 +1,10 @@
+;;GO_term;GeneCount;FoldEnrichment;FDR
+1;GO:0006790;sulfur compound metabolic process ;14;6,66;4,50E-05
+2;GO:0006749;glutathione metabolic process ;9;11,75;5,09E-05
+3;GO:0006575;cellular modified amino acid metabolic process ;10;8,75;0,000111
+4;GO:0008152;metabolic process ;80;1,59;0,00662
+5;GO:0043603;amide metabolic process ;15;3,52;0,00724
+6;GO:0055085;transmembrane transport ;16;3;0,0172
+7;GO:0019748;secondary metabolic process ;6;7,95;0,019
+8;GO:0044550;secondary metabolite biosynthetic process ;5;9,72;0,0221
+9;GO:0006518;peptide metabolic process ;12;3,37;0,036

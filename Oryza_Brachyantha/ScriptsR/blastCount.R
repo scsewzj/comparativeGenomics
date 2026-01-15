@@ -10,13 +10,13 @@ library(tidyr)
 # ========================
 args <- commandArgs(trailingOnly = TRUE)
 
-blast_raw   <- ifelse(length(args) >= 1, args[1], "append_all_vs_all.tsv")
-blast_filt1 <- ifelse(length(args) >= 2, args[2], "clusters/moderate.tsv")
-blast_filt2 <- ifelse(length(args) >= 3, args[3], "clusters/strict.tsv")
+blast_raw   <- ifelse(length(args) >= 1, args[1], "../append_all_vs_all.tsv")
+blast_filt1 <- ifelse(length(args) >= 2, args[2], "../clusters/moderate.tsv")
+blast_filt2 <- ifelse(length(args) >= 3, args[3], "../clusters/strict.tsv")
 header      <- ifelse(length(args) >= 4, as.logical(args[4]), FALSE)
 sep_char    <- ifelse(length(args) >= 5, args[5], "")
 
-plot_dir <- "plots"
+plot_dir <- "../plots"
 
 # Create output directory if it doesn't exist
 if (!dir.exists(plot_dir)) dir.create(plot_dir, recursive = TRUE)
@@ -37,7 +37,7 @@ filt2_accessions <- get_unique_accessions(blast_filt2, header, sep_char)
 # Define files and labels
 blast_files <- list(filt1_accessions = filt1_accessions,
                     filt2_accessions = filt2_accessions)
-file_labels <- c("MODERATE", "STRICT")
+file_labels <- c("L", "H")
 
 # Initialize counts dataframe
 counts_df <- data.frame(
@@ -77,13 +77,14 @@ counts_long <- counts_df %>%
 p <- ggplot(counts_long, aes(x = File, y = Count, fill = Type)) +
   geom_bar(stat = "identity", position = "dodge", color = NA) +
   geom_text(aes(label = Count), position = position_dodge(width = 0.9), vjust = -0.5) +
-  scale_fill_manual(values = c("Hits" = "#1b9e77", "Sequences" = "#d95f02", "Singletons" = "#7570b3")) +
+  scale_fill_manual(values = c("Hits" = "#6caed6", "Sequences" = "#cbaa7a", "Singletons" = "#bebebe")) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
-  labs(y = "Count", x = "", fill = "Type") +
+  labs(y = "# Hits", x = "", fill = "Type") +
   theme_minimal(base_size = 14) +
+  ggtitle("O. brachyantha") +
   theme(panel.border = element_blank(),
         axis.line = element_line(color = "black"),
-        legend.position = "top")
-
+        plot.title = element_text(face="italic"))
+plot(p)
 # Save plot
 ggsave(filename = file.path(plot_dir, "blast_counts.png"), plot = p, width = 6, height = 4)
